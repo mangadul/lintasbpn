@@ -113,7 +113,7 @@
                     </pool>
                     <security>
                         <user-name>root</user-name>
-                        <password>Mt020215as2009</password>
+                        <password>DBPASWORD</password>
                     </security>
                     <statement>
                         <prepared-statement-cache-size>100</prepared-statement-cache-size>
