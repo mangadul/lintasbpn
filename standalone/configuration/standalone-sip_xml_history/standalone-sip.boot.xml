@@ -113,7 +113,7 @@
                     </pool>
                     <security>
                         <user-name>root</user-name>
-                        <password>Mt020215as2009</password>
+                        <password>DBPASSWORD</password>
                     </security>
                     <statement>
                         <prepared-statement-cache-size>100</prepared-statement-cache-size>
@@ -298,7 +298,7 @@
         <subsystem xmlns="urn:jboss:domain:web:1.4" default-virtual-server="default-host" native="false">
             <!--connector name="http" protocol="HTTP/1.1" scheme="http" socket-binding="http"-->
             <connector name="https" protocol="HTTP/1.1" scheme="https" socket-binding="https" enable-lookups="false" secure="true">
-                <ssl name="https" key-alias="startsslcert" password="Mt020215as2009" certificate-key-file="${jboss.server.config.dir}/keystore.jks" cipher-suite="TLS_RSA_WITH_3DES_EDE_CBC_SHA,TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA,TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384,TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA,TLS_RSA_WITH_AES_128_CBC_SHA256,TLS_RSA_WITH_AES_128_CBC_SHA,TLS_RSA_WITH_AES_256_CBC_SHA256,TLS_RSA_WITH_AES_256_CBC_SHA" verify-client="false" protocol="TLSv1,TLSv1.1,TLSv1.2"/>
+                <ssl name="https" key-alias="startsslcert" password="PASSWORD" certificate-key-file="${jboss.server.config.dir}/keystore.jks" cipher-suite="TLS_RSA_WITH_3DES_EDE_CBC_SHA,TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA,TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384,TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA,TLS_RSA_WITH_AES_128_CBC_SHA256,TLS_RSA_WITH_AES_128_CBC_SHA,TLS_RSA_WITH_AES_256_CBC_SHA256,TLS_RSA_WITH_AES_256_CBC_SHA" verify-client="false" protocol="TLSv1,TLSv1.1,TLSv1.2"/>
             </connector>
             <virtual-server name="default-host" enable-welcome-root="false">
                 <alias name="localhost"/>
