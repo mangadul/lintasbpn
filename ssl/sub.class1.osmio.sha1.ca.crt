@@ -1,0 +1,121 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 43 (0x2b)
+        Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=IL, O=StartCom Ltd., OU=Secure Digital Certificate Signing, CN=StartCom Certification Authority
+        Validity
+            Not Before: Jun  1 00:00:01 2010 GMT
+            Not After : May 31 23:59:59 2020 GMT
+        Subject: C=US, ST=Massachusetts, O=The City of Osmio, Inc., CN=StartCom Class 1 Intermediate CA - The City of Osmio
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+            RSA Public Key: (2048 bit)
+                Modulus (2048 bit):
+                    00:e2:97:ca:f1:8b:d2:12:a1:a6:cf:1e:8c:21:ab:
+                    10:b5:f3:c1:fa:9a:5b:13:1c:1c:0e:61:8b:5f:41:
+                    f5:10:33:96:19:5b:35:cc:ee:58:d9:bf:b6:a8:d1:
+                    07:8c:2d:8d:4b:8a:9b:4d:c1:84:ec:30:4b:ca:9e:
+                    89:36:19:fb:ad:ac:ee:b0:0b:dd:75:cf:71:8d:c8:
+                    c7:c4:0e:aa:9c:b4:f8:37:e7:39:e1:56:6c:1f:25:
+                    d7:91:3a:12:f3:a4:b1:2c:c9:1e:25:c6:dc:e7:61:
+                    19:e3:ea:36:ed:b7:da:fd:a0:b7:51:f0:c5:f2:17:
+                    63:72:41:b1:c0:93:0c:68:0f:d8:b3:62:87:44:16:
+                    22:f9:71:63:87:52:a5:cc:49:ce:93:be:de:76:f9:
+                    ff:21:af:e9:11:3b:7b:82:ca:5b:7f:43:50:cc:e6:
+                    e4:a3:88:ce:f5:da:c7:73:64:9a:de:32:af:df:51:
+                    e9:7d:78:dc:96:7d:97:74:04:4b:b6:bc:f1:d2:dc:
+                    52:9d:b5:53:f0:49:c7:fd:3d:dc:52:21:9f:ee:de:
+                    8a:18:d3:64:c2:d2:50:f2:a6:33:51:69:da:cb:0f:
+                    85:a0:85:e4:5d:8d:54:de:01:c2:87:4c:bf:45:7e:
+                    67:ee:b4:7e:db:7b:31:1d:b4:97:e5:04:42:a0:d8:
+                    bb:73
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: critical
+                CA:TRUE
+            X509v3 Key Usage: critical
+                Certificate Sign, CRL Sign
+            X509v3 Subject Key Identifier: 
+                F0:9F:F0:F8:E3:84:24:26:2D:49:DB:D8:88:46:A9:DE:12:DB:D6:34
+            X509v3 Authority Key Identifier: 
+                keyid:4E:0B:EF:1A:A4:40:5B:A5:17:69:87:30:CA:34:68:43:D0:41:AE:F2
+
+            Authority Information Access: 
+                OCSP - URI:http://ocsp.startssl.com/ca
+                CA Issuers - URI:http://www.startssl.com/sfsca.crt
+
+            X509v3 CRL Distribution Points: 
+                URI:http://www.startssl.com/sfsca.crl
+                URI:http://crl.startssl.com/sfsca.crl
+
+            X509v3 Certificate Policies: 
+                Policy: any_policy_id
+                  CPS: http://www.startssl.com/policy.pdf
+                  CPS: http://www.startssl.com/intermediate.pdf
+
+    Signature Algorithm: sha1WithRSAEncryption
+        3f:f5:d4:92:22:3e:a1:65:8f:eb:4c:f9:87:b9:29:37:1b:57:
+        fd:a0:56:84:93:41:78:25:6b:90:4b:d9:36:f7:83:6e:0e:a1:
+        0f:15:7b:fe:22:41:84:2b:fd:c0:a8:e0:1e:99:86:ea:55:c2:
+        68:00:7d:0c:69:86:6d:13:e6:4e:d6:ef:a6:c9:51:0e:0b:d4:
+        87:0c:82:51:45:e3:23:89:43:d8:1e:21:79:03:7f:9e:38:55:
+        e6:f9:59:ff:9e:be:81:1a:30:1f:91:11:7d:31:54:1c:9c:3c:
+        b1:16:e5:33:1d:05:63:74:f9:6b:ba:bc:49:a9:d0:db:18:c8:
+        d7:4e:df:3a:ce:f5:fa:6e:44:00:4a:10:4e:f6:e6:d0:ff:c2:
+        d7:36:e2:2b:2d:fe:2a:9f:64:d2:dd:35:ec:c6:81:45:fc:bd:
+        97:bc:32:c5:a9:d8:80:3e:9e:e5:02:9a:15:89:1e:70:61:3c:
+        68:bc:8b:04:7b:35:40:2d:dd:c3:53:b2:9e:f9:f1:10:81:96:
+        fc:6e:e9:3f:1a:02:39:06:cd:a4:57:0d:a8:79:23:30:31:c9:
+        8f:d0:09:a4:a3:bf:1d:dc:26:73:85:3c:37:91:52:fe:1a:87:
+        d0:af:67:00:1d:86:15:5b:fe:b4:16:3b:96:bb:27:9c:30:91:
+        f4:13:62:3c:0e:df:e1:2e:74:35:c4:63:ee:e5:32:26:dd:1d:
+        2c:6d:a8:cd:51:b9:ca:40:34:cd:e0:59:e0:a9:0a:4f:4f:17:
+        a2:88:d2:48:ba:92:28:b6:9c:d2:60:86:ce:95:e8:82:ba:ef:
+        9a:45:06:0e:a7:b4:11:3b:13:03:e3:11:97:8a:4f:95:94:06:
+        3f:d4:9e:7f:5a:d1:99:15:00:ff:97:69:07:a5:55:1f:e1:c1:
+        29:44:98:de:ae:2b:eb:ba:eb:28:bb:a6:a7:9a:5c:aa:9c:1c:
+        d2:f4:61:2d:ec:5e:8a:d5:c7:f7:6d:85:b5:85:d2:3d:97:6c:
+        32:c9:2d:a9:ab:08:f5:d0:11:a1:f8:48:b2:a0:ca:25:8f:5f:
+        87:6c:ad:e0:42:01:0d:de:3b:f1:31:b3:a6:d1:57:05:18:f0:
+        83:04:a6:54:71:d7:2d:48:84:d8:f8:55:68:0c:dc:98:84:5c:
+        1d:36:65:4e:48:c8:a5:15:30:9d:49:5a:9b:4f:c0:2d:6b:10:
+        8d:3b:5b:6f:51:22:24:93:79:b0:fe:c2:87:cd:1a:0b:6f:a2:
+        28:d7:3b:5e:f1:6f:cb:7c:34:41:d2:9c:dc:37:50:e7:eb:55:
+        bd:01:14:ca:47:5a:4d:8c:98:8e:b5:62:65:35:b0:bb:c1:c5:
+        df:da:89:e9:21:9b:d1:2b
+-----BEGIN CERTIFICATE-----
+MIIGJjCCBA6gAwIBAgIBKzANBgkqhkiG9w0BAQUFADB9MQswCQYDVQQGEwJJTDEW
+MBQGA1UEChMNU3RhcnRDb20gTHRkLjErMCkGA1UECxMiU2VjdXJlIERpZ2l0YWwg
+Q2VydGlmaWNhdGUgU2lnbmluZzEpMCcGA1UEAxMgU3RhcnRDb20gQ2VydGlmaWNh
+dGlvbiBBdXRob3JpdHkwHhcNMTAwNjAxMDAwMDAxWhcNMjAwNTMxMjM1OTU5WjCB
+hjELMAkGA1UEBhMCVVMxFjAUBgNVBAgTDU1hc3NhY2h1c2V0dHMxIDAeBgNVBAoT
+F1RoZSBDaXR5IG9mIE9zbWlvLCBJbmMuMT0wOwYDVQQDEzRTdGFydENvbSBDbGFz
+cyAxIEludGVybWVkaWF0ZSBDQSAtIFRoZSBDaXR5IG9mIE9zbWlvMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4pfK8YvSEqGmzx6MIasQtfPB+ppbExwc
+DmGLX0H1EDOWGVs1zO5Y2b+2qNEHjC2NS4qbTcGE7DBLyp6JNhn7razusAvddc9x
+jcjHxA6qnLT4N+c54VZsHyXXkToS86SxLMkeJcbc52EZ4+o27bfa/aC3UfDF8hdj
+ckGxwJMMaA/Ys2KHRBYi+XFjh1KlzEnOk77edvn/Ia/pETt7gspbf0NQzObko4jO
+9drHc2Sa3jKv31HpfXjcln2XdARLtrzx0txSnbVT8EnH/T3cUiGf7t6KGNNkwtJQ
+8qYzUWnayw+FoIXkXY1U3gHCh0y/RX5n7rR+23sxHbSX5QRCoNi7cwIDAQABo4IB
+pTCCAaEwDwYDVR0TAQH/BAUwAwEB/zAOBgNVHQ8BAf8EBAMCAQYwHQYDVR0OBBYE
+FPCf8PjjhCQmLUnb2IhGqd4S29Y0MB8GA1UdIwQYMBaAFE4L7xqkQFulF2mHMMo0
+aEPQQa7yMGYGCCsGAQUFBwEBBFowWDAnBggrBgEFBQcwAYYbaHR0cDovL29jc3Au
+c3RhcnRzc2wuY29tL2NhMC0GCCsGAQUFBzAChiFodHRwOi8vd3d3LnN0YXJ0c3Ns
+LmNvbS9zZnNjYS5jcnQwWwYDVR0fBFQwUjAnoCWgI4YhaHR0cDovL3d3dy5zdGFy
+dHNzbC5jb20vc2ZzY2EuY3JsMCegJaAjhiFodHRwOi8vY3JsLnN0YXJ0c3NsLmNv
+bS9zZnNjYS5jcmwweQYDVR0gBHIwcDBuBgRVHSAAMGYwLgYIKwYBBQUHAgEWImh0
+dHA6Ly93d3cuc3RhcnRzc2wuY29tL3BvbGljeS5wZGYwNAYIKwYBBQUHAgEWKGh0
+dHA6Ly93d3cuc3RhcnRzc2wuY29tL2ludGVybWVkaWF0ZS5wZGYwDQYJKoZIhvcN
+AQEFBQADggIBAD/11JIiPqFlj+tM+Ye5KTcbV/2gVoSTQXgla5BL2Tb3g24OoQ8V
+e/4iQYQr/cCo4B6ZhupVwmgAfQxphm0T5k7W76bJUQ4L1IcMglFF4yOJQ9geIXkD
+f544Veb5Wf+evoEaMB+REX0xVBycPLEW5TMdBWN0+Wu6vEmp0NsYyNdO3zrO9fpu
+RABKEE725tD/wtc24ist/iqfZNLdNezGgUX8vZe8MsWp2IA+nuUCmhWJHnBhPGi8
+iwR7NUAt3cNTsp758RCBlvxu6T8aAjkGzaRXDah5IzAxyY/QCaSjvx3cJnOFPDeR
+Uv4ah9CvZwAdhhVb/rQWO5a7J5wwkfQTYjwO3+EudDXEY+7lMibdHSxtqM1RucpA
+NM3gWeCpCk9PF6KI0ki6kii2nNJghs6V6IK675pFBg6ntBE7EwPjEZeKT5WUBj/U
+nn9a0ZkVAP+XaQelVR/hwSlEmN6uK+u66yi7pqeaXKqcHNL0YS3sXorVx/dthbWF
+0j2XbDLJLamrCPXQEaH4SLKgyiWPX4dsreBCAQ3eO/Exs6bRVwUY8IMEplRx1y1I
+hNj4VWgM3JiEXB02ZU5IyKUVMJ1JWptPwC1rEI07W29RIiSTebD+wofNGgtvoijX
+O17xb8t8NEHSnNw3UOfrVb0BFMpHWk2MmI61YmU1sLvBxd/aiekhm9Er
+-----END CERTIFICATE-----
