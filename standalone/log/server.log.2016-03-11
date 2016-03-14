@@ -1,0 +1,48 @@
+01:53:36,548 INFO  [gov.nist.javax.sip.stack.SIPTransactionStack] (SIP-TCP-Core-PipelineThreadpool-1) <message
+from="103.52.146.167:43493" 
+to="185.28.22.37:5080" 
+time="1457679216548"
+isSender="false" 
+transactionId="root-50000-42-options-nm-5060393535" 
+callId="50000" 
+firstLine="OPTIONS sip:nm SIP/2.0" 
+>
+<![CDATA[OPTIONS sip:nm SIP/2.0
+Via: SIP/2.0/TCP nm;branch=foo;received=103.52.146.167;rport=43493
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Max-Forwards: 70
+Contact: <sip:nm@nm>
+Accept: application/sdp
+Content-Length: 0
+
+]]>
+</message>
+
+01:53:36,550 INFO  [org.mobicents.servlet.sip.core.dispatchers.InitialRequestDispatcher] (SIP-TCP-Core-PipelineThreadpool-1) Request event dispatched to RestComm
+01:53:36,552 INFO  [org.mobicents.servlet.sip.core.session.SipSessionImpl] (MSS-Executor-Thread-6) Invalidating the sip session (root;50000;1f4fc2a8;RestComm)
+01:53:36,555 INFO  [org.mobicents.servlet.sip.core.session.SipApplicationSessionImpl] (MSS-Executor-Thread-6) Invalidating the following sip application session 1f4fc2a8;RestComm
+01:53:36,555 INFO  [org.mobicents.servlet.sip.core.session.SipApplicationSessionImpl] (MSS-Executor-Thread-6) The following sip application session 1f4fc2a8;RestComm has been invalidated
+01:53:36,552 INFO  [gov.nist.javax.sip.stack.SIPTransactionStack] (RestComm-akka.actor.default-dispatcher-5228) <message
+from="185.28.22.37:5080" 
+to="103.52.146.167:43493" 
+time="1457679216552"
+isSender="true" 
+transactionId="root-50000-42-options-nm-5060393535" 
+callId="50000" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+To: <sip:nm2@nm2>;tag=81027251_2ab72023_57a5b08a_1f4fc2a8
+Via: SIP/2.0/TCP nm;branch=foo;received=103.52.146.167;rport=43493
+CSeq: 42 OPTIONS
+Call-ID: 50000
+From: <sip:nm@nm>;tag=root
+Server: Restcomm 7.6.0.825
+Content-Length: 0
+
+]]>
+</message>
+

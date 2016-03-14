@@ -1,0 +1,763 @@
+2016-03-13 19:52:43,808 INFO  [Main] (main) log4j initialized from a configuration file.
+2016-03-13 19:52:43,809 INFO  [Main] (main) Home directory: /opt/Restcomm-JBoss-AS7-7.6.0.825/mediaserver
+2016-03-13 19:52:43,817 INFO  [Main] (main) Booting from file:/opt/Restcomm-JBoss-AS7-7.6.0.825/mediaserver/conf/bootstrap-beans.xml
+2016-03-13 19:52:44,959 INFO  [Configuration] (main) Configuring /opt/Restcomm-JBoss-AS7-7.6.0.825/mediaserver/deploy/server-beans.xml
+2016-03-13 19:52:45,074 INFO  [PriorityQueueScheduler] (main) Starting 
+2016-03-13 19:52:45,085 INFO  [PriorityQueueScheduler] (main) Started 
+2016-03-13 19:52:45,103 INFO  [ServiceScheduler] (main) Started scheduler!
+2016-03-13 19:52:45,147 INFO  [UdpManager] (main) Starting UDP Manager
+2016-03-13 19:52:45,155 INFO  [UdpManager] (main) Initialized UDP interface[unknown]: bind address=185.28.22.37
+2016-03-13 19:52:45,970 INFO  [MGCP] (main) Set scheduler: org.mobicents.media.server.scheduler.PriorityQueueScheduler@51b30472
+2016-03-13 19:52:45,971 INFO  [MGCP] (main) Set server
+2016-03-13 19:52:45,972 INFO  [MGCP] (main) Starting MGCP controller
+2016-03-13 19:52:45,972 INFO  [MGCP] (main) Starting MGCP provider
+2016-03-13 19:52:45,981 INFO  [MgcpProvider] (main) Opening channel
+2016-03-13 19:52:46,000 INFO  [MgcpProvider] (main) Binding channel to 185.28.22.37:2427
+2016-03-13 19:52:46,002 INFO  [MGCP] (main) Controller started
+2016-03-13 19:52:46,021 INFO  [Server] (main) Installing mobicents/ivr/1
+2016-03-13 19:52:46,112 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/1
+2016-03-13 19:52:46,112 INFO  [Server] (main) Installing mobicents/ivr/2
+2016-03-13 19:52:46,114 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/2
+2016-03-13 19:52:46,114 INFO  [Server] (main) Installing mobicents/ivr/3
+2016-03-13 19:52:46,116 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/3
+2016-03-13 19:52:46,116 INFO  [Server] (main) Installing mobicents/ivr/4
+2016-03-13 19:52:46,117 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/4
+2016-03-13 19:52:46,118 INFO  [Server] (main) Installing mobicents/ivr/5
+2016-03-13 19:52:46,119 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/5
+2016-03-13 19:52:46,119 INFO  [Server] (main) Installing mobicents/ivr/6
+2016-03-13 19:52:46,121 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/6
+2016-03-13 19:52:46,121 INFO  [Server] (main) Installing mobicents/ivr/7
+2016-03-13 19:52:46,123 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/7
+2016-03-13 19:52:46,123 INFO  [Server] (main) Installing mobicents/ivr/8
+2016-03-13 19:52:46,127 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/8
+2016-03-13 19:52:46,127 INFO  [Server] (main) Installing mobicents/ivr/9
+2016-03-13 19:52:46,129 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/9
+2016-03-13 19:52:46,129 INFO  [Server] (main) Installing mobicents/ivr/10
+2016-03-13 19:52:46,130 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/10
+2016-03-13 19:52:46,130 INFO  [Server] (main) Installing mobicents/ivr/11
+2016-03-13 19:52:46,132 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/11
+2016-03-13 19:52:46,132 INFO  [Server] (main) Installing mobicents/ivr/12
+2016-03-13 19:52:46,134 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/12
+2016-03-13 19:52:46,135 INFO  [Server] (main) Installing mobicents/ivr/13
+2016-03-13 19:52:46,137 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/13
+2016-03-13 19:52:46,137 INFO  [Server] (main) Installing mobicents/ivr/14
+2016-03-13 19:52:46,138 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/14
+2016-03-13 19:52:46,138 INFO  [Server] (main) Installing mobicents/ivr/15
+2016-03-13 19:52:46,140 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/15
+2016-03-13 19:52:46,141 INFO  [Server] (main) Installing mobicents/ivr/16
+2016-03-13 19:52:46,174 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/16
+2016-03-13 19:52:46,177 INFO  [Server] (main) Installing mobicents/ivr/17
+2016-03-13 19:52:46,201 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/17
+2016-03-13 19:52:46,206 INFO  [Server] (main) Installing mobicents/ivr/18
+2016-03-13 19:52:46,216 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/18
+2016-03-13 19:52:46,216 INFO  [Server] (main) Installing mobicents/ivr/19
+2016-03-13 19:52:46,234 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/19
+2016-03-13 19:52:46,238 INFO  [Server] (main) Installing mobicents/ivr/20
+2016-03-13 19:52:46,239 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/20
+2016-03-13 19:52:46,239 INFO  [Server] (main) Installing mobicents/ivr/21
+2016-03-13 19:52:46,257 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/21
+2016-03-13 19:52:46,258 INFO  [Server] (main) Installing mobicents/ivr/22
+2016-03-13 19:52:46,259 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/22
+2016-03-13 19:52:46,259 INFO  [Server] (main) Installing mobicents/ivr/23
+2016-03-13 19:52:46,260 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/23
+2016-03-13 19:52:46,260 INFO  [Server] (main) Installing mobicents/ivr/24
+2016-03-13 19:52:46,261 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/24
+2016-03-13 19:52:46,261 INFO  [Server] (main) Installing mobicents/ivr/25
+2016-03-13 19:52:46,262 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/25
+2016-03-13 19:52:46,263 INFO  [Server] (main) Installing mobicents/ivr/26
+2016-03-13 19:52:46,264 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/26
+2016-03-13 19:52:46,264 INFO  [Server] (main) Installing mobicents/ivr/27
+2016-03-13 19:52:46,266 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/27
+2016-03-13 19:52:46,277 INFO  [Server] (main) Installing mobicents/ivr/28
+2016-03-13 19:52:46,279 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/28
+2016-03-13 19:52:46,279 INFO  [Server] (main) Installing mobicents/ivr/29
+2016-03-13 19:52:46,280 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/29
+2016-03-13 19:52:46,280 INFO  [Server] (main) Installing mobicents/ivr/30
+2016-03-13 19:52:46,281 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/30
+2016-03-13 19:52:46,282 INFO  [Server] (main) Installing mobicents/ivr/31
+2016-03-13 19:52:46,284 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/31
+2016-03-13 19:52:46,284 INFO  [Server] (main) Installing mobicents/ivr/32
+2016-03-13 19:52:46,285 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/32
+2016-03-13 19:52:46,285 INFO  [Server] (main) Installing mobicents/ivr/33
+2016-03-13 19:52:46,286 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/33
+2016-03-13 19:52:46,287 INFO  [Server] (main) Installing mobicents/ivr/34
+2016-03-13 19:52:46,288 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/34
+2016-03-13 19:52:46,288 INFO  [Server] (main) Installing mobicents/ivr/35
+2016-03-13 19:52:46,289 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/35
+2016-03-13 19:52:46,289 INFO  [Server] (main) Installing mobicents/ivr/36
+2016-03-13 19:52:46,291 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/36
+2016-03-13 19:52:46,291 INFO  [Server] (main) Installing mobicents/ivr/37
+2016-03-13 19:52:46,292 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/37
+2016-03-13 19:52:46,292 INFO  [Server] (main) Installing mobicents/ivr/38
+2016-03-13 19:52:46,294 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/38
+2016-03-13 19:52:46,294 INFO  [Server] (main) Installing mobicents/ivr/39
+2016-03-13 19:52:46,295 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/39
+2016-03-13 19:52:46,295 INFO  [Server] (main) Installing mobicents/ivr/40
+2016-03-13 19:52:46,296 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/40
+2016-03-13 19:52:46,296 INFO  [Server] (main) Installing mobicents/ivr/41
+2016-03-13 19:52:46,297 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/41
+2016-03-13 19:52:46,297 INFO  [Server] (main) Installing mobicents/ivr/42
+2016-03-13 19:52:46,298 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/42
+2016-03-13 19:52:46,298 INFO  [Server] (main) Installing mobicents/ivr/43
+2016-03-13 19:52:46,299 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/43
+2016-03-13 19:52:46,299 INFO  [Server] (main) Installing mobicents/ivr/44
+2016-03-13 19:52:46,300 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/44
+2016-03-13 19:52:46,301 INFO  [Server] (main) Installing mobicents/ivr/45
+2016-03-13 19:52:46,302 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/45
+2016-03-13 19:52:46,305 INFO  [Server] (main) Installing mobicents/ivr/46
+2016-03-13 19:52:46,306 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/46
+2016-03-13 19:52:46,306 INFO  [Server] (main) Installing mobicents/ivr/47
+2016-03-13 19:52:46,307 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/47
+2016-03-13 19:52:46,307 INFO  [Server] (main) Installing mobicents/ivr/48
+2016-03-13 19:52:46,308 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/48
+2016-03-13 19:52:46,309 INFO  [Server] (main) Installing mobicents/ivr/49
+2016-03-13 19:52:46,310 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/49
+2016-03-13 19:52:46,310 INFO  [Server] (main) Installing mobicents/ivr/50
+2016-03-13 19:52:46,311 INFO  [MGCP] (main) Endpoint restarted: mobicents/ivr/50
+2016-03-13 19:52:46,323 INFO  [Server] (main) Installing mobicents/cnf/1
+2016-03-13 19:52:46,323 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/1
+2016-03-13 19:52:46,323 INFO  [Server] (main) Installing mobicents/cnf/2
+2016-03-13 19:52:46,324 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/2
+2016-03-13 19:52:46,324 INFO  [Server] (main) Installing mobicents/cnf/3
+2016-03-13 19:52:46,324 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/3
+2016-03-13 19:52:46,324 INFO  [Server] (main) Installing mobicents/cnf/4
+2016-03-13 19:52:46,325 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/4
+2016-03-13 19:52:46,325 INFO  [Server] (main) Installing mobicents/cnf/5
+2016-03-13 19:52:46,325 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/5
+2016-03-13 19:52:46,325 INFO  [Server] (main) Installing mobicents/cnf/6
+2016-03-13 19:52:46,325 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/6
+2016-03-13 19:52:46,326 INFO  [Server] (main) Installing mobicents/cnf/7
+2016-03-13 19:52:46,327 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/7
+2016-03-13 19:52:46,327 INFO  [Server] (main) Installing mobicents/cnf/8
+2016-03-13 19:52:46,327 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/8
+2016-03-13 19:52:46,327 INFO  [Server] (main) Installing mobicents/cnf/9
+2016-03-13 19:52:46,328 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/9
+2016-03-13 19:52:46,328 INFO  [Server] (main) Installing mobicents/cnf/10
+2016-03-13 19:52:46,328 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/10
+2016-03-13 19:52:46,328 INFO  [Server] (main) Installing mobicents/cnf/11
+2016-03-13 19:52:46,329 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/11
+2016-03-13 19:52:46,329 INFO  [Server] (main) Installing mobicents/cnf/12
+2016-03-13 19:52:46,329 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/12
+2016-03-13 19:52:46,329 INFO  [Server] (main) Installing mobicents/cnf/13
+2016-03-13 19:52:46,329 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/13
+2016-03-13 19:52:46,330 INFO  [Server] (main) Installing mobicents/cnf/14
+2016-03-13 19:52:46,330 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/14
+2016-03-13 19:52:46,330 INFO  [Server] (main) Installing mobicents/cnf/15
+2016-03-13 19:52:46,331 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/15
+2016-03-13 19:52:46,331 INFO  [Server] (main) Installing mobicents/cnf/16
+2016-03-13 19:52:46,331 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/16
+2016-03-13 19:52:46,332 INFO  [Server] (main) Installing mobicents/cnf/17
+2016-03-13 19:52:46,332 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/17
+2016-03-13 19:52:46,332 INFO  [Server] (main) Installing mobicents/cnf/18
+2016-03-13 19:52:46,333 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/18
+2016-03-13 19:52:46,333 INFO  [Server] (main) Installing mobicents/cnf/19
+2016-03-13 19:52:46,333 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/19
+2016-03-13 19:52:46,333 INFO  [Server] (main) Installing mobicents/cnf/20
+2016-03-13 19:52:46,334 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/20
+2016-03-13 19:52:46,334 INFO  [Server] (main) Installing mobicents/cnf/21
+2016-03-13 19:52:46,334 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/21
+2016-03-13 19:52:46,334 INFO  [Server] (main) Installing mobicents/cnf/22
+2016-03-13 19:52:46,335 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/22
+2016-03-13 19:52:46,335 INFO  [Server] (main) Installing mobicents/cnf/23
+2016-03-13 19:52:46,335 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/23
+2016-03-13 19:52:46,335 INFO  [Server] (main) Installing mobicents/cnf/24
+2016-03-13 19:52:46,336 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/24
+2016-03-13 19:52:46,336 INFO  [Server] (main) Installing mobicents/cnf/25
+2016-03-13 19:52:46,336 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/25
+2016-03-13 19:52:46,336 INFO  [Server] (main) Installing mobicents/cnf/26
+2016-03-13 19:52:46,336 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/26
+2016-03-13 19:52:46,337 INFO  [Server] (main) Installing mobicents/cnf/27
+2016-03-13 19:52:46,337 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/27
+2016-03-13 19:52:46,337 INFO  [Server] (main) Installing mobicents/cnf/28
+2016-03-13 19:52:46,339 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/28
+2016-03-13 19:52:46,339 INFO  [Server] (main) Installing mobicents/cnf/29
+2016-03-13 19:52:46,339 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/29
+2016-03-13 19:52:46,339 INFO  [Server] (main) Installing mobicents/cnf/30
+2016-03-13 19:52:46,340 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/30
+2016-03-13 19:52:46,340 INFO  [Server] (main) Installing mobicents/cnf/31
+2016-03-13 19:52:46,340 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/31
+2016-03-13 19:52:46,340 INFO  [Server] (main) Installing mobicents/cnf/32
+2016-03-13 19:52:46,341 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/32
+2016-03-13 19:52:46,341 INFO  [Server] (main) Installing mobicents/cnf/33
+2016-03-13 19:52:46,341 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/33
+2016-03-13 19:52:46,341 INFO  [Server] (main) Installing mobicents/cnf/34
+2016-03-13 19:52:46,342 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/34
+2016-03-13 19:52:46,342 INFO  [Server] (main) Installing mobicents/cnf/35
+2016-03-13 19:52:46,342 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/35
+2016-03-13 19:52:46,342 INFO  [Server] (main) Installing mobicents/cnf/36
+2016-03-13 19:52:46,343 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/36
+2016-03-13 19:52:46,343 INFO  [Server] (main) Installing mobicents/cnf/37
+2016-03-13 19:52:46,343 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/37
+2016-03-13 19:52:46,343 INFO  [Server] (main) Installing mobicents/cnf/38
+2016-03-13 19:52:46,343 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/38
+2016-03-13 19:52:46,344 INFO  [Server] (main) Installing mobicents/cnf/39
+2016-03-13 19:52:46,344 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/39
+2016-03-13 19:52:46,344 INFO  [Server] (main) Installing mobicents/cnf/40
+2016-03-13 19:52:46,344 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/40
+2016-03-13 19:52:46,344 INFO  [Server] (main) Installing mobicents/cnf/41
+2016-03-13 19:52:46,345 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/41
+2016-03-13 19:52:46,345 INFO  [Server] (main) Installing mobicents/cnf/42
+2016-03-13 19:52:46,345 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/42
+2016-03-13 19:52:46,345 INFO  [Server] (main) Installing mobicents/cnf/43
+2016-03-13 19:52:46,346 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/43
+2016-03-13 19:52:46,346 INFO  [Server] (main) Installing mobicents/cnf/44
+2016-03-13 19:52:46,346 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/44
+2016-03-13 19:52:46,346 INFO  [Server] (main) Installing mobicents/cnf/45
+2016-03-13 19:52:46,346 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/45
+2016-03-13 19:52:46,347 INFO  [Server] (main) Installing mobicents/cnf/46
+2016-03-13 19:52:46,347 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/46
+2016-03-13 19:52:46,347 INFO  [Server] (main) Installing mobicents/cnf/47
+2016-03-13 19:52:46,347 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/47
+2016-03-13 19:52:46,349 INFO  [Server] (main) Installing mobicents/cnf/48
+2016-03-13 19:52:46,349 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/48
+2016-03-13 19:52:46,349 INFO  [Server] (main) Installing mobicents/cnf/49
+2016-03-13 19:52:46,358 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/49
+2016-03-13 19:52:46,358 INFO  [Server] (main) Installing mobicents/cnf/50
+2016-03-13 19:52:46,358 INFO  [MGCP] (main) Endpoint restarted: mobicents/cnf/50
+2016-03-13 19:52:46,367 INFO  [Server] (main) Installing mobicents/bridge/1
+2016-03-13 19:52:46,371 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/1
+2016-03-13 19:52:46,371 INFO  [Server] (main) Installing mobicents/bridge/2
+2016-03-13 19:52:46,372 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/2
+2016-03-13 19:52:46,372 INFO  [Server] (main) Installing mobicents/bridge/3
+2016-03-13 19:52:46,372 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/3
+2016-03-13 19:52:46,372 INFO  [Server] (main) Installing mobicents/bridge/4
+2016-03-13 19:52:46,373 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/4
+2016-03-13 19:52:46,373 INFO  [Server] (main) Installing mobicents/bridge/5
+2016-03-13 19:52:46,373 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/5
+2016-03-13 19:52:46,373 INFO  [Server] (main) Installing mobicents/bridge/6
+2016-03-13 19:52:46,374 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/6
+2016-03-13 19:52:46,374 INFO  [Server] (main) Installing mobicents/bridge/7
+2016-03-13 19:52:46,374 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/7
+2016-03-13 19:52:46,374 INFO  [Server] (main) Installing mobicents/bridge/8
+2016-03-13 19:52:46,375 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/8
+2016-03-13 19:52:46,375 INFO  [Server] (main) Installing mobicents/bridge/9
+2016-03-13 19:52:46,375 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/9
+2016-03-13 19:52:46,375 INFO  [Server] (main) Installing mobicents/bridge/10
+2016-03-13 19:52:46,376 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/10
+2016-03-13 19:52:46,376 INFO  [Server] (main) Installing mobicents/bridge/11
+2016-03-13 19:52:46,377 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/11
+2016-03-13 19:52:46,377 INFO  [Server] (main) Installing mobicents/bridge/12
+2016-03-13 19:52:46,379 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/12
+2016-03-13 19:52:46,379 INFO  [Server] (main) Installing mobicents/bridge/13
+2016-03-13 19:52:46,379 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/13
+2016-03-13 19:52:46,379 INFO  [Server] (main) Installing mobicents/bridge/14
+2016-03-13 19:52:46,380 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/14
+2016-03-13 19:52:46,380 INFO  [Server] (main) Installing mobicents/bridge/15
+2016-03-13 19:52:46,380 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/15
+2016-03-13 19:52:46,381 INFO  [Server] (main) Installing mobicents/bridge/16
+2016-03-13 19:52:46,381 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/16
+2016-03-13 19:52:46,382 INFO  [Server] (main) Installing mobicents/bridge/17
+2016-03-13 19:52:46,382 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/17
+2016-03-13 19:52:46,382 INFO  [Server] (main) Installing mobicents/bridge/18
+2016-03-13 19:52:46,382 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/18
+2016-03-13 19:52:46,383 INFO  [Server] (main) Installing mobicents/bridge/19
+2016-03-13 19:52:46,383 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/19
+2016-03-13 19:52:46,383 INFO  [Server] (main) Installing mobicents/bridge/20
+2016-03-13 19:52:46,383 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/20
+2016-03-13 19:52:46,383 INFO  [Server] (main) Installing mobicents/bridge/21
+2016-03-13 19:52:46,384 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/21
+2016-03-13 19:52:46,384 INFO  [Server] (main) Installing mobicents/bridge/22
+2016-03-13 19:52:46,384 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/22
+2016-03-13 19:52:46,384 INFO  [Server] (main) Installing mobicents/bridge/23
+2016-03-13 19:52:46,385 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/23
+2016-03-13 19:52:46,385 INFO  [Server] (main) Installing mobicents/bridge/24
+2016-03-13 19:52:46,385 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/24
+2016-03-13 19:52:46,385 INFO  [Server] (main) Installing mobicents/bridge/25
+2016-03-13 19:52:46,386 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/25
+2016-03-13 19:52:46,386 INFO  [Server] (main) Installing mobicents/bridge/26
+2016-03-13 19:52:46,386 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/26
+2016-03-13 19:52:46,386 INFO  [Server] (main) Installing mobicents/bridge/27
+2016-03-13 19:52:46,387 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/27
+2016-03-13 19:52:46,387 INFO  [Server] (main) Installing mobicents/bridge/28
+2016-03-13 19:52:46,387 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/28
+2016-03-13 19:52:46,387 INFO  [Server] (main) Installing mobicents/bridge/29
+2016-03-13 19:52:46,388 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/29
+2016-03-13 19:52:46,388 INFO  [Server] (main) Installing mobicents/bridge/30
+2016-03-13 19:52:46,388 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/30
+2016-03-13 19:52:46,388 INFO  [Server] (main) Installing mobicents/bridge/31
+2016-03-13 19:52:46,388 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/31
+2016-03-13 19:52:46,389 INFO  [Server] (main) Installing mobicents/bridge/32
+2016-03-13 19:52:46,389 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/32
+2016-03-13 19:52:46,389 INFO  [Server] (main) Installing mobicents/bridge/33
+2016-03-13 19:52:46,389 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/33
+2016-03-13 19:52:46,390 INFO  [Server] (main) Installing mobicents/bridge/34
+2016-03-13 19:52:46,390 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/34
+2016-03-13 19:52:46,390 INFO  [Server] (main) Installing mobicents/bridge/35
+2016-03-13 19:52:46,390 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/35
+2016-03-13 19:52:46,390 INFO  [Server] (main) Installing mobicents/bridge/36
+2016-03-13 19:52:46,391 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/36
+2016-03-13 19:52:46,391 INFO  [Server] (main) Installing mobicents/bridge/37
+2016-03-13 19:52:46,391 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/37
+2016-03-13 19:52:46,391 INFO  [Server] (main) Installing mobicents/bridge/38
+2016-03-13 19:52:46,392 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/38
+2016-03-13 19:52:46,392 INFO  [Server] (main) Installing mobicents/bridge/39
+2016-03-13 19:52:46,392 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/39
+2016-03-13 19:52:46,392 INFO  [Server] (main) Installing mobicents/bridge/40
+2016-03-13 19:52:46,393 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/40
+2016-03-13 19:52:46,393 INFO  [Server] (main) Installing mobicents/bridge/41
+2016-03-13 19:52:46,393 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/41
+2016-03-13 19:52:46,393 INFO  [Server] (main) Installing mobicents/bridge/42
+2016-03-13 19:52:46,394 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/42
+2016-03-13 19:52:46,394 INFO  [Server] (main) Installing mobicents/bridge/43
+2016-03-13 19:52:46,394 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/43
+2016-03-13 19:52:46,394 INFO  [Server] (main) Installing mobicents/bridge/44
+2016-03-13 19:52:46,395 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/44
+2016-03-13 19:52:46,395 INFO  [Server] (main) Installing mobicents/bridge/45
+2016-03-13 19:52:46,395 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/45
+2016-03-13 19:52:46,395 INFO  [Server] (main) Installing mobicents/bridge/46
+2016-03-13 19:52:46,396 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/46
+2016-03-13 19:52:46,396 INFO  [Server] (main) Installing mobicents/bridge/47
+2016-03-13 19:52:46,397 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/47
+2016-03-13 19:52:46,397 INFO  [Server] (main) Installing mobicents/bridge/48
+2016-03-13 19:52:46,398 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/48
+2016-03-13 19:52:46,398 INFO  [Server] (main) Installing mobicents/bridge/49
+2016-03-13 19:52:46,398 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/49
+2016-03-13 19:52:46,398 INFO  [Server] (main) Installing mobicents/bridge/50
+2016-03-13 19:52:46,399 INFO  [MGCP] (main) Endpoint restarted: mobicents/bridge/50
+2016-03-13 19:52:46,408 INFO  [Server] (main) Installing mobicents/relay/1
+2016-03-13 19:52:46,408 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/1
+2016-03-13 19:52:46,408 INFO  [Server] (main) Installing mobicents/relay/2
+2016-03-13 19:52:46,409 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/2
+2016-03-13 19:52:46,409 INFO  [Server] (main) Installing mobicents/relay/3
+2016-03-13 19:52:46,409 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/3
+2016-03-13 19:52:46,409 INFO  [Server] (main) Installing mobicents/relay/4
+2016-03-13 19:52:46,410 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/4
+2016-03-13 19:52:46,410 INFO  [Server] (main) Installing mobicents/relay/5
+2016-03-13 19:52:46,410 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/5
+2016-03-13 19:52:46,410 INFO  [Server] (main) Installing mobicents/relay/6
+2016-03-13 19:52:46,411 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/6
+2016-03-13 19:52:46,411 INFO  [Server] (main) Installing mobicents/relay/7
+2016-03-13 19:52:46,411 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/7
+2016-03-13 19:52:46,411 INFO  [Server] (main) Installing mobicents/relay/8
+2016-03-13 19:52:46,411 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/8
+2016-03-13 19:52:46,412 INFO  [Server] (main) Installing mobicents/relay/9
+2016-03-13 19:52:46,412 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/9
+2016-03-13 19:52:46,412 INFO  [Server] (main) Installing mobicents/relay/10
+2016-03-13 19:52:46,412 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/10
+2016-03-13 19:52:46,413 INFO  [Server] (main) Installing mobicents/relay/11
+2016-03-13 19:52:46,413 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/11
+2016-03-13 19:52:46,413 INFO  [Server] (main) Installing mobicents/relay/12
+2016-03-13 19:52:46,413 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/12
+2016-03-13 19:52:46,414 INFO  [Server] (main) Installing mobicents/relay/13
+2016-03-13 19:52:46,414 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/13
+2016-03-13 19:52:46,414 INFO  [Server] (main) Installing mobicents/relay/14
+2016-03-13 19:52:46,414 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/14
+2016-03-13 19:52:46,415 INFO  [Server] (main) Installing mobicents/relay/15
+2016-03-13 19:52:46,415 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/15
+2016-03-13 19:52:46,415 INFO  [Server] (main) Installing mobicents/relay/16
+2016-03-13 19:52:46,416 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/16
+2016-03-13 19:52:46,416 INFO  [Server] (main) Installing mobicents/relay/17
+2016-03-13 19:52:46,416 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/17
+2016-03-13 19:52:46,416 INFO  [Server] (main) Installing mobicents/relay/18
+2016-03-13 19:52:46,417 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/18
+2016-03-13 19:52:46,417 INFO  [Server] (main) Installing mobicents/relay/19
+2016-03-13 19:52:46,417 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/19
+2016-03-13 19:52:46,417 INFO  [Server] (main) Installing mobicents/relay/20
+2016-03-13 19:52:46,418 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/20
+2016-03-13 19:52:46,418 INFO  [Server] (main) Installing mobicents/relay/21
+2016-03-13 19:52:46,418 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/21
+2016-03-13 19:52:46,418 INFO  [Server] (main) Installing mobicents/relay/22
+2016-03-13 19:52:46,419 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/22
+2016-03-13 19:52:46,419 INFO  [Server] (main) Installing mobicents/relay/23
+2016-03-13 19:52:46,419 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/23
+2016-03-13 19:52:46,419 INFO  [Server] (main) Installing mobicents/relay/24
+2016-03-13 19:52:46,419 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/24
+2016-03-13 19:52:46,420 INFO  [Server] (main) Installing mobicents/relay/25
+2016-03-13 19:52:46,420 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/25
+2016-03-13 19:52:46,420 INFO  [Server] (main) Installing mobicents/relay/26
+2016-03-13 19:52:46,420 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/26
+2016-03-13 19:52:46,420 INFO  [Server] (main) Installing mobicents/relay/27
+2016-03-13 19:52:46,421 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/27
+2016-03-13 19:52:46,421 INFO  [Server] (main) Installing mobicents/relay/28
+2016-03-13 19:52:46,421 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/28
+2016-03-13 19:52:46,421 INFO  [Server] (main) Installing mobicents/relay/29
+2016-03-13 19:52:46,422 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/29
+2016-03-13 19:52:46,422 INFO  [Server] (main) Installing mobicents/relay/30
+2016-03-13 19:52:46,422 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/30
+2016-03-13 19:52:46,422 INFO  [Server] (main) Installing mobicents/relay/31
+2016-03-13 19:52:46,422 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/31
+2016-03-13 19:52:46,423 INFO  [Server] (main) Installing mobicents/relay/32
+2016-03-13 19:52:46,423 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/32
+2016-03-13 19:52:46,423 INFO  [Server] (main) Installing mobicents/relay/33
+2016-03-13 19:52:46,423 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/33
+2016-03-13 19:52:46,423 INFO  [Server] (main) Installing mobicents/relay/34
+2016-03-13 19:52:46,424 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/34
+2016-03-13 19:52:46,424 INFO  [Server] (main) Installing mobicents/relay/35
+2016-03-13 19:52:46,424 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/35
+2016-03-13 19:52:46,424 INFO  [Server] (main) Installing mobicents/relay/36
+2016-03-13 19:52:46,425 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/36
+2016-03-13 19:52:46,425 INFO  [Server] (main) Installing mobicents/relay/37
+2016-03-13 19:52:46,425 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/37
+2016-03-13 19:52:46,425 INFO  [Server] (main) Installing mobicents/relay/38
+2016-03-13 19:52:46,425 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/38
+2016-03-13 19:52:46,426 INFO  [Server] (main) Installing mobicents/relay/39
+2016-03-13 19:52:46,426 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/39
+2016-03-13 19:52:46,426 INFO  [Server] (main) Installing mobicents/relay/40
+2016-03-13 19:52:46,426 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/40
+2016-03-13 19:52:46,426 INFO  [Server] (main) Installing mobicents/relay/41
+2016-03-13 19:52:46,427 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/41
+2016-03-13 19:52:46,427 INFO  [Server] (main) Installing mobicents/relay/42
+2016-03-13 19:52:46,427 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/42
+2016-03-13 19:52:46,427 INFO  [Server] (main) Installing mobicents/relay/43
+2016-03-13 19:52:46,428 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/43
+2016-03-13 19:52:46,428 INFO  [Server] (main) Installing mobicents/relay/44
+2016-03-13 19:52:46,428 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/44
+2016-03-13 19:52:46,428 INFO  [Server] (main) Installing mobicents/relay/45
+2016-03-13 19:52:46,428 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/45
+2016-03-13 19:52:46,429 INFO  [Server] (main) Installing mobicents/relay/46
+2016-03-13 19:52:46,429 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/46
+2016-03-13 19:52:46,429 INFO  [Server] (main) Installing mobicents/relay/47
+2016-03-13 19:52:46,429 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/47
+2016-03-13 19:52:46,429 INFO  [Server] (main) Installing mobicents/relay/48
+2016-03-13 19:52:46,430 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/48
+2016-03-13 19:52:46,430 INFO  [Server] (main) Installing mobicents/relay/49
+2016-03-13 19:52:46,430 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/49
+2016-03-13 19:52:46,430 INFO  [Server] (main) Installing mobicents/relay/50
+2016-03-13 19:52:46,431 INFO  [MGCP] (main) Endpoint restarted: mobicents/relay/50
+2016-03-13 19:52:46,431 INFO  [MainDeployer] (main) Calling Garbage collector to clear init data
+2016-03-13 19:52:46,564 INFO  [MainDeployer] (main) [[[[[[[[[ Mobicents Media Server: release.version=3.0.0.FINAL Started ]]]]]]]]]
+2016-03-13 19:53:45,935 INFO  [Server] (scheduler-worker-9) Global hearbeat is still alive
+2016-03-13 19:54:45,935 INFO  [Server] (scheduler-worker-9) Global hearbeat is still alive
+2016-03-13 19:55:45,935 INFO  [Server] (scheduler-worker-9) Global hearbeat is still alive
+2016-03-13 19:56:45,935 INFO  [Server] (scheduler-worker-9) Global hearbeat is still alive
+2016-03-13 19:57:45,935 INFO  [Server] (scheduler-worker-9) Global hearbeat is still alive
+2016-03-13 19:58:45,935 INFO  [Server] (scheduler-worker-9) Global hearbeat is still alive
+2016-03-13 19:59:45,935 INFO  [Server] (scheduler-worker-9) Global hearbeat is still alive
+2016-03-13 20:00:45,938 INFO  [Server] (scheduler-worker-9) Global hearbeat is still alive
+2016-03-13 20:01:45,938 INFO  [Server] (scheduler-worker-9) Global hearbeat is still alive
+2016-03-13 20:02:45,935 INFO  [Server] (scheduler-worker-9) Global hearbeat is still alive
+2016-03-13 20:03:45,935 INFO  [Server] (scheduler-worker-9) Global hearbeat is still alive
+2016-03-13 20:04:45,935 INFO  [Server] (scheduler-worker-9) Global hearbeat is still alive
+2016-03-13 20:05:45,935 INFO  [Server] (scheduler-worker-9) Global hearbeat is still alive
+2016-03-13 20:06:45,935 INFO  [Server] (scheduler-worker-9) Global hearbeat is still alive
+2016-03-13 20:07:45,935 INFO  [Server] (scheduler-worker-9) Global hearbeat is still alive
+2016-03-13 20:08:45,937 INFO  [Server] (scheduler-worker-9) Global hearbeat is still alive
+2016-03-13 20:09:45,935 INFO  [Server] (scheduler-worker-9) Global hearbeat is still alive
+2016-03-13 20:10:45,936 INFO  [Server] (scheduler-worker-9) Global hearbeat is still alive
+2016-03-13 20:11:45,935 INFO  [Server] (scheduler-worker-9) Global hearbeat is still alive
+2016-03-13 20:12:45,935 INFO  [Server] (scheduler-worker-9) Global hearbeat is still alive
+2016-03-13 20:13:36,504 INFO  [MGCP] (service-scheduler-4) tx=147483653 Started, message= CRCX mobicents/bridge/$@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:13:36,523 INFO  [MGCP] (scheduler-worker-3) tx=147483653 was executed normaly
+2016-03-13 20:13:36,537 INFO  [MGCP] (service-scheduler-10) tx=147483654 Started, message= MDCX mobicents/ivr/1@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:13:36,556 INFO  [MGCP] (scheduler-worker-0) tx=147483654 was executed normaly
+2016-03-13 20:13:36,594 INFO  [MGCP] (service-scheduler-4) tx=147483655 Started, message= CRCX mobicents/bridge/1@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:13:36,636 INFO  [NioServer] (scheduler-worker-7) Started NIO Server
+2016-03-13 20:13:36,784 INFO  [MGCP] (scheduler-worker-2) tx=147483655 was executed normaly
+2016-03-13 20:13:37,106 INFO  [MGCP] (service-scheduler-10) tx=147483656 Started, message= RQNT mobicents/ivr/1@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:13:37,121 INFO  [Play] (scheduler-worker-2) (mobicents/ivr/1) Start announcement (segment=0)
+2016-03-13 20:13:37,570 INFO  [MGCP] (scheduler-worker-2) tx=147483656 was executed normaly
+2016-03-13 20:13:37,584 WARN  [NioServer] (Thread-1) No handler found to process incoming packet. Packet will be dropped.
+2016-03-13 20:13:38,574 WARN  [NioServer] (Thread-1) No handler found to process incoming packet. Packet will be dropped.
+2016-03-13 20:13:38,616 INFO  [IceAgent] (Thread-1) Selected RTP candidate on address us.lintasbpn.com:65532
+2016-03-13 20:13:38,616 INFO  [IceAgent] (Thread-1) Selected all candidate pairs!
+2016-03-13 20:13:38,617 INFO  [NioServer] (Thread-1) Stopping NIO Server...
+2016-03-13 20:13:38,617 INFO  [RtpChannel] (Thread-1) Adding stun handler to pipeline. Null? false
+2016-03-13 20:13:38,620 INFO  [NioServer] (Thread-1) NIO Server stopped
+2016-03-13 20:13:41,112 INFO  [DtlsSrtpServer] (Thread-3) Received client certificate chain of length 1
+2016-03-13 20:13:41,116 INFO  [DtlsSrtpServer] (Thread-3) WebRTC Client certificate fingerprint:sha-256 F0:05:56:3C:D3:C9:0E:EA:C5:8B:E3:75:48:74:43:15:41:AE:71:58:44:E0:83:6A:09:43:75:01:7F:BD:69:0D (CN=WebRTC)
+2016-03-13 20:13:41,191 INFO  [RtpChannel] (Thread-3) DTLS handshake completed for RTP candidate.
+2016-03-13 20:13:41,452 INFO  [RtpHandler] (service-scheduler-2) Restarting jitter buffer
+2016-03-13 20:13:41,452 INFO  [JitterBuffer] (service-scheduler-2) Format has been changed: 8 AudioFormat[pcma,8000,8,mono]
+2016-03-13 20:13:41,555 WARN  [Channel] (service-scheduler-3) No protocol handler was found to process an incoming packet. Packet will be dropped.
+2016-03-13 20:13:42,037 INFO  [AudioPlayerImpl] (scheduler-worker-6) (mobicents/ivr/1) End of file reached
+2016-03-13 20:13:42,038 INFO  [Play] (scheduler-worker-6) (mobicents/ivr/1) Announcement (segment=0) has completed
+2016-03-13 20:13:42,038 INFO  [MGCP] (scheduler-worker-6) tx=2 Started, message= NTFY mobicents/ivr/1@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:13:42,040 INFO  [MGCP] (scheduler-worker-5) tx=2 was executed normaly
+2016-03-13 20:13:42,049 INFO  [MGCP] (service-scheduler-4) tx=147483658 Started, message= RQNT mobicents/ivr/1@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:13:42,057 INFO  [Play] (scheduler-worker-3) (mobicents/ivr/1) Start announcement (segment=0)
+2016-03-13 20:13:42,064 INFO  [MGCP] (scheduler-worker-3) tx=147483658 was executed normaly
+2016-03-13 20:13:44,160 WARN  [Channel] (service-scheduler-7) No protocol handler was found to process an incoming packet. Packet will be dropped.
+2016-03-13 20:13:45,935 INFO  [Server] (scheduler-worker-0) Global hearbeat is still alive
+2016-03-13 20:13:46,556 INFO  [AudioPlayerImpl] (scheduler-worker-0) (mobicents/ivr/1) End of file reached
+2016-03-13 20:13:46,556 INFO  [Play] (scheduler-worker-0) (mobicents/ivr/1) Announcement (segment=0) has completed
+2016-03-13 20:13:46,557 INFO  [MGCP] (scheduler-worker-0) tx=3 Started, message= NTFY mobicents/ivr/1@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:13:46,557 INFO  [MGCP] (scheduler-worker-1) tx=3 was executed normaly
+2016-03-13 20:13:46,566 INFO  [MGCP] (service-scheduler-9) tx=147483660 Started, message= RQNT mobicents/ivr/1@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:13:46,576 INFO  [Play] (scheduler-worker-5) (mobicents/ivr/1) Start announcement (segment=0)
+2016-03-13 20:13:46,579 INFO  [MGCP] (scheduler-worker-5) tx=147483660 was executed normaly
+2016-03-13 20:13:47,431 WARN  [Channel] (service-scheduler-8) No protocol handler was found to process an incoming packet. Packet will be dropped.
+2016-03-13 20:13:48,802 WARN  [Channel] (service-scheduler-10) No protocol handler was found to process an incoming packet. Packet will be dropped.
+2016-03-13 20:13:50,856 INFO  [AudioPlayerImpl] (scheduler-worker-6) (mobicents/ivr/1) End of file reached
+2016-03-13 20:13:50,856 INFO  [Play] (scheduler-worker-6) (mobicents/ivr/1) Announcement (segment=0) has completed
+2016-03-13 20:13:50,857 INFO  [MGCP] (scheduler-worker-6) tx=4 Started, message= NTFY mobicents/ivr/1@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:13:50,858 INFO  [MGCP] (scheduler-worker-5) tx=4 was executed normaly
+2016-03-13 20:13:50,872 INFO  [MGCP] (service-scheduler-1) tx=147483662 Started, message= DLCX mobicents/bridge/1@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:13:50,874 INFO  [MGCP] (service-scheduler-1) tx=147483663 Started, message= DLCX mobicents/ivr/1@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:13:50,879 INFO  [MGCP] (scheduler-worker-5) tx=147483662 was executed normaly
+2016-03-13 20:13:50,879 INFO  [MGCP] (scheduler-worker-1) tx=147483663 was executed normaly
+2016-03-13 20:14:45,935 INFO  [Server] (scheduler-worker-2) Global hearbeat is still alive
+2016-03-13 20:15:45,935 INFO  [Server] (scheduler-worker-2) Global hearbeat is still alive
+2016-03-13 20:16:40,823 INFO  [MGCP] (service-scheduler-10) tx=147483664 Started, message= CRCX mobicents/bridge/$@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:16:40,837 INFO  [MGCP] (scheduler-worker-8) tx=147483664 was executed normaly
+2016-03-13 20:16:40,842 INFO  [MGCP] (service-scheduler-6) tx=147483665 Started, message= MDCX mobicents/ivr/2@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:16:40,856 INFO  [MGCP] (scheduler-worker-1) tx=147483665 was executed normaly
+2016-03-13 20:16:40,859 INFO  [MGCP] (service-scheduler-1) tx=147483666 Started, message= CRCX mobicents/bridge/2@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:16:40,878 INFO  [NioServer] (scheduler-worker-5) Started NIO Server
+2016-03-13 20:16:40,887 INFO  [MGCP] (scheduler-worker-5) tx=147483666 was executed normaly
+2016-03-13 20:16:41,687 WARN  [NioServer] (Thread-4) No handler found to process incoming packet. Packet will be dropped.
+2016-03-13 20:16:42,193 INFO  [IceAgent] (Thread-4) Selected RTP candidate on address us.lintasbpn.com:65530
+2016-03-13 20:16:42,194 INFO  [IceAgent] (Thread-4) Selected all candidate pairs!
+2016-03-13 20:16:42,194 INFO  [NioServer] (Thread-4) Stopping NIO Server...
+2016-03-13 20:16:42,194 INFO  [RtpChannel] (Thread-4) Adding stun handler to pipeline. Null? false
+2016-03-13 20:16:42,197 INFO  [NioServer] (Thread-4) NIO Server stopped
+2016-03-13 20:16:42,336 INFO  [MGCP] (service-scheduler-1) tx=147483667 Started, message= RQNT mobicents/ivr/2@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:16:42,356 INFO  [Play] (scheduler-worker-1) (mobicents/ivr/2) Start announcement (segment=0)
+2016-03-13 20:16:42,416 INFO  [MGCP] (scheduler-worker-1) tx=147483667 was executed normaly
+2016-03-13 20:16:43,021 INFO  [DtlsSrtpServer] (Thread-5) Received client certificate chain of length 1
+2016-03-13 20:16:43,022 INFO  [DtlsSrtpServer] (Thread-5) WebRTC Client certificate fingerprint:sha-256 F0:05:56:3C:D3:C9:0E:EA:C5:8B:E3:75:48:74:43:15:41:AE:71:58:44:E0:83:6A:09:43:75:01:7F:BD:69:0D (CN=WebRTC)
+2016-03-13 20:16:43,038 INFO  [RtpChannel] (Thread-5) DTLS handshake completed for RTP candidate.
+2016-03-13 20:16:43,325 INFO  [RtpHandler] (service-scheduler-1) Restarting jitter buffer
+2016-03-13 20:16:43,325 INFO  [JitterBuffer] (service-scheduler-1) Format has been changed: 8 AudioFormat[pcma,8000,8,mono]
+2016-03-13 20:16:43,407 WARN  [Channel] (service-scheduler-8) No protocol handler was found to process an incoming packet. Packet will be dropped.
+2016-03-13 20:16:45,936 INFO  [Server] (scheduler-worker-4) Global hearbeat is still alive
+2016-03-13 20:16:46,019 WARN  [Channel] (service-scheduler-4) No protocol handler was found to process an incoming packet. Packet will be dropped.
+2016-03-13 20:16:46,255 INFO  [AudioPlayerImpl] (scheduler-worker-8) (mobicents/ivr/2) End of file reached
+2016-03-13 20:16:46,256 INFO  [Play] (scheduler-worker-8) (mobicents/ivr/2) Announcement (segment=0) has completed
+2016-03-13 20:16:46,256 INFO  [MGCP] (scheduler-worker-8) tx=5 Started, message= NTFY mobicents/ivr/2@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:16:46,257 INFO  [MGCP] (scheduler-worker-3) tx=5 was executed normaly
+2016-03-13 20:16:46,266 INFO  [MGCP] (service-scheduler-4) tx=147483669 Started, message= DLCX mobicents/bridge/2@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:16:46,269 INFO  [MGCP] (service-scheduler-10) tx=147483670 Started, message= DLCX mobicents/ivr/2@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:16:46,276 INFO  [MGCP] (scheduler-worker-1) tx=147483669 was executed normaly
+2016-03-13 20:16:46,276 INFO  [MGCP] (scheduler-worker-5) tx=147483670 was executed normaly
+2016-03-13 20:17:45,935 INFO  [Server] (scheduler-worker-3) Global hearbeat is still alive
+2016-03-13 20:18:45,935 INFO  [Server] (scheduler-worker-3) Global hearbeat is still alive
+2016-03-13 20:19:45,935 INFO  [Server] (scheduler-worker-3) Global hearbeat is still alive
+2016-03-13 20:20:45,935 INFO  [Server] (scheduler-worker-3) Global hearbeat is still alive
+2016-03-13 20:21:45,939 INFO  [Server] (scheduler-worker-3) Global hearbeat is still alive
+2016-03-13 20:22:45,935 INFO  [Server] (scheduler-worker-3) Global hearbeat is still alive
+2016-03-13 20:22:46,748 INFO  [MGCP] (service-scheduler-8) tx=147483671 Started, message= CRCX mobicents/bridge/$@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:22:46,756 INFO  [MGCP] (scheduler-worker-3) tx=147483671 was executed normaly
+2016-03-13 20:22:46,769 INFO  [MGCP] (service-scheduler-8) tx=147483672 Started, message= MDCX mobicents/ivr/3@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:22:46,778 INFO  [MGCP] (scheduler-worker-7) tx=147483672 was executed normaly
+2016-03-13 20:22:46,789 INFO  [MGCP] (service-scheduler-9) tx=147483673 Started, message= CRCX mobicents/bridge/3@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:22:46,797 INFO  [NioServer] (scheduler-worker-8) Started NIO Server
+2016-03-13 20:22:46,801 INFO  [MGCP] (scheduler-worker-8) tx=147483673 was executed normaly
+2016-03-13 20:22:47,578 WARN  [NioServer] (Thread-6) No handler found to process incoming packet. Packet will be dropped.
+2016-03-13 20:22:48,106 INFO  [IceAgent] (Thread-6) Selected RTP candidate on address us.lintasbpn.com:65528
+2016-03-13 20:22:48,106 INFO  [IceAgent] (Thread-6) Selected all candidate pairs!
+2016-03-13 20:22:48,107 INFO  [NioServer] (Thread-6) Stopping NIO Server...
+2016-03-13 20:22:48,107 INFO  [RtpChannel] (Thread-6) Adding stun handler to pipeline. Null? false
+2016-03-13 20:22:48,108 INFO  [NioServer] (Thread-6) NIO Server stopped
+2016-03-13 20:22:48,429 INFO  [MGCP] (service-scheduler-5) tx=147483674 Started, message= RQNT mobicents/ivr/3@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:22:48,436 INFO  [Play] (scheduler-worker-1) (mobicents/ivr/3) Start announcement (segment=0)
+2016-03-13 20:22:48,467 INFO  [MGCP] (scheduler-worker-1) tx=147483674 was executed normaly
+2016-03-13 20:22:48,903 INFO  [DtlsSrtpServer] (Thread-7) Received client certificate chain of length 1
+2016-03-13 20:22:48,903 INFO  [DtlsSrtpServer] (Thread-7) WebRTC Client certificate fingerprint:sha-256 F0:05:56:3C:D3:C9:0E:EA:C5:8B:E3:75:48:74:43:15:41:AE:71:58:44:E0:83:6A:09:43:75:01:7F:BD:69:0D (CN=WebRTC)
+2016-03-13 20:22:48,916 INFO  [RtpChannel] (Thread-7) DTLS handshake completed for RTP candidate.
+2016-03-13 20:22:49,190 INFO  [RtpHandler] (service-scheduler-8) Restarting jitter buffer
+2016-03-13 20:22:49,190 INFO  [JitterBuffer] (service-scheduler-8) Format has been changed: 8 AudioFormat[pcma,8000,8,mono]
+2016-03-13 20:22:49,271 WARN  [Channel] (service-scheduler-2) No protocol handler was found to process an incoming packet. Packet will be dropped.
+2016-03-13 20:22:50,582 WARN  [Channel] (service-scheduler-5) No protocol handler was found to process an incoming packet. Packet will be dropped.
+2016-03-13 20:22:52,713 WARN  [Channel] (service-scheduler-2) No protocol handler was found to process an incoming packet. Packet will be dropped.
+2016-03-13 20:22:53,516 INFO  [AudioPlayerImpl] (scheduler-worker-3) (mobicents/ivr/3) End of file reached
+2016-03-13 20:22:53,517 INFO  [Play] (scheduler-worker-3) (mobicents/ivr/3) Announcement (segment=0) has completed
+2016-03-13 20:22:53,517 INFO  [MGCP] (scheduler-worker-3) tx=6 Started, message= NTFY mobicents/ivr/3@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:22:53,518 INFO  [MGCP] (scheduler-worker-1) tx=6 was executed normaly
+2016-03-13 20:22:53,526 INFO  [MGCP] (service-scheduler-7) tx=147483676 Started, message= DLCX mobicents/bridge/3@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:22:53,529 INFO  [MGCP] (service-scheduler-1) tx=147483677 Started, message= DLCX mobicents/ivr/3@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:22:53,536 INFO  [MGCP] (scheduler-worker-6) tx=147483677 was executed normaly
+2016-03-13 20:22:53,536 INFO  [MGCP] (scheduler-worker-5) tx=147483676 was executed normaly
+2016-03-13 20:23:45,935 INFO  [Server] (scheduler-worker-8) Global hearbeat is still alive
+2016-03-13 20:24:45,935 INFO  [Server] (scheduler-worker-8) Global hearbeat is still alive
+2016-03-13 20:25:35,353 INFO  [MGCP] (service-scheduler-3) tx=147483678 Started, message= CRCX mobicents/bridge/$@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:25:35,356 INFO  [MGCP] (scheduler-worker-6) tx=147483678 was executed normaly
+2016-03-13 20:25:35,362 INFO  [MGCP] (service-scheduler-1) tx=147483679 Started, message= MDCX mobicents/ivr/4@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:25:35,376 INFO  [MGCP] (scheduler-worker-9) tx=147483679 was executed normaly
+2016-03-13 20:25:35,385 INFO  [MGCP] (service-scheduler-5) tx=147483680 Started, message= CRCX mobicents/bridge/4@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:25:35,398 INFO  [NioServer] (scheduler-worker-6) Started NIO Server
+2016-03-13 20:25:35,404 INFO  [MGCP] (scheduler-worker-9) tx=147483680 was executed normaly
+2016-03-13 20:25:36,188 WARN  [NioServer] (Thread-8) No handler found to process incoming packet. Packet will be dropped.
+2016-03-13 20:25:36,725 INFO  [IceAgent] (Thread-8) Selected RTP candidate on address us.lintasbpn.com:65526
+2016-03-13 20:25:36,725 INFO  [IceAgent] (Thread-8) Selected all candidate pairs!
+2016-03-13 20:25:36,725 INFO  [NioServer] (Thread-8) Stopping NIO Server...
+2016-03-13 20:25:36,726 INFO  [RtpChannel] (Thread-8) Adding stun handler to pipeline. Null? false
+2016-03-13 20:25:36,726 INFO  [NioServer] (Thread-8) NIO Server stopped
+2016-03-13 20:25:37,198 INFO  [MGCP] (service-scheduler-10) tx=147483681 Started, message= RQNT mobicents/ivr/4@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:25:37,216 INFO  [Play] (scheduler-worker-6) (mobicents/ivr/4) Start announcement (segment=0)
+2016-03-13 20:25:37,259 INFO  [MGCP] (scheduler-worker-6) tx=147483681 was executed normaly
+2016-03-13 20:25:37,515 INFO  [DtlsSrtpServer] (Thread-9) Received client certificate chain of length 1
+2016-03-13 20:25:37,516 INFO  [DtlsSrtpServer] (Thread-9) WebRTC Client certificate fingerprint:sha-256 F0:05:56:3C:D3:C9:0E:EA:C5:8B:E3:75:48:74:43:15:41:AE:71:58:44:E0:83:6A:09:43:75:01:7F:BD:69:0D (CN=WebRTC)
+2016-03-13 20:25:37,524 INFO  [RtpChannel] (Thread-9) DTLS handshake completed for RTP candidate.
+2016-03-13 20:25:37,810 INFO  [RtpHandler] (service-scheduler-10) Restarting jitter buffer
+2016-03-13 20:25:37,810 INFO  [JitterBuffer] (service-scheduler-10) Format has been changed: 8 AudioFormat[pcma,8000,8,mono]
+2016-03-13 20:25:37,892 WARN  [Channel] (service-scheduler-3) No protocol handler was found to process an incoming packet. Packet will be dropped.
+2016-03-13 20:25:41,262 WARN  [Channel] (service-scheduler-5) No protocol handler was found to process an incoming packet. Packet will be dropped.
+2016-03-13 20:25:43,350 WARN  [Channel] (service-scheduler-9) No protocol handler was found to process an incoming packet. Packet will be dropped.
+2016-03-13 20:25:45,240 WARN  [Channel] (service-scheduler-4) No protocol handler was found to process an incoming packet. Packet will be dropped.
+2016-03-13 20:25:45,937 INFO  [Server] (scheduler-worker-2) Global hearbeat is still alive
+2016-03-13 20:25:48,615 INFO  [AudioPlayerImpl] (scheduler-worker-7) (mobicents/ivr/4) End of file reached
+2016-03-13 20:25:48,616 INFO  [Play] (scheduler-worker-7) (mobicents/ivr/4) Announcement (segment=0) has completed
+2016-03-13 20:25:48,616 INFO  [MGCP] (scheduler-worker-7) tx=7 Started, message= NTFY mobicents/ivr/4@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:25:48,617 INFO  [MGCP] (scheduler-worker-0) tx=7 was executed normaly
+2016-03-13 20:25:48,634 INFO  [MGCP] (service-scheduler-1) tx=147483683 Started, message= DLCX mobicents/bridge/4@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:25:48,636 INFO  [MGCP] (service-scheduler-9) tx=147483684 Started, message= DLCX mobicents/ivr/4@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:25:48,637 INFO  [MGCP] (scheduler-worker-9) tx=147483683 was executed normaly
+2016-03-13 20:25:48,655 INFO  [MGCP] (scheduler-worker-7) tx=147483684 was executed normaly
+2016-03-13 20:26:45,935 INFO  [Server] (scheduler-worker-6) Global hearbeat is still alive
+2016-03-13 20:27:45,935 INFO  [Server] (scheduler-worker-6) Global hearbeat is still alive
+2016-03-13 20:28:45,935 INFO  [Server] (scheduler-worker-6) Global hearbeat is still alive
+2016-03-13 20:29:45,936 INFO  [Server] (scheduler-worker-6) Global hearbeat is still alive
+2016-03-13 20:30:45,935 INFO  [Server] (scheduler-worker-6) Global hearbeat is still alive
+2016-03-13 20:31:45,935 INFO  [Server] (scheduler-worker-6) Global hearbeat is still alive
+2016-03-13 20:32:45,938 INFO  [Server] (scheduler-worker-6) Global hearbeat is still alive
+2016-03-13 20:33:41,053 INFO  [MGCP] (service-scheduler-6) tx=147483685 Started, message= CRCX mobicents/bridge/$@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:33:41,055 INFO  [MGCP] (scheduler-worker-7) tx=147483685 was executed normaly
+2016-03-13 20:33:41,062 INFO  [MGCP] (service-scheduler-1) tx=147483686 Started, message= MDCX mobicents/ivr/5@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:33:41,076 INFO  [MGCP] (scheduler-worker-0) tx=147483686 was executed normaly
+2016-03-13 20:33:41,083 INFO  [MGCP] (service-scheduler-3) tx=147483687 Started, message= CRCX mobicents/bridge/5@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:33:41,099 INFO  [MGCP] (scheduler-worker-7) tx=147483687 was executed normaly
+2016-03-13 20:33:41,777 INFO  [MGCP] (service-scheduler-5) tx=147483688 Started, message= DLCX mobicents/bridge/5@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:33:41,779 INFO  [MGCP] (service-scheduler-6) tx=147483689 Started, message= DLCX mobicents/ivr/5@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:33:41,796 INFO  [MGCP] (scheduler-worker-8) tx=147483689 was executed normaly
+2016-03-13 20:33:41,797 INFO  [MGCP] (scheduler-worker-8) tx=147483688 was executed normaly
+2016-03-13 20:33:45,939 INFO  [Server] (scheduler-worker-5) Global hearbeat is still alive
+2016-03-13 20:34:03,639 INFO  [MGCP] (service-scheduler-10) tx=147483690 Started, message= CRCX mobicents/bridge/$@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:34:03,656 INFO  [MGCP] (scheduler-worker-9) tx=147483690 was executed normaly
+2016-03-13 20:34:03,665 INFO  [MGCP] (service-scheduler-3) tx=147483691 Started, message= MDCX mobicents/ivr/6@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:34:03,677 INFO  [MGCP] (scheduler-worker-6) tx=147483691 was executed normaly
+2016-03-13 20:34:03,687 INFO  [MGCP] (service-scheduler-3) tx=147483692 Started, message= CRCX mobicents/bridge/6@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:34:03,699 INFO  [MGCP] (scheduler-worker-6) tx=147483692 was executed normaly
+2016-03-13 20:34:04,313 INFO  [MGCP] (service-scheduler-10) tx=147483693 Started, message= RQNT mobicents/ivr/6@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:34:04,316 INFO  [Play] (scheduler-worker-6) (mobicents/ivr/6) Start announcement (segment=0)
+2016-03-13 20:34:04,384 INFO  [MGCP] (service-scheduler-2) tx=147483694 Started, message= DLCX mobicents/ivr/6@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:34:04,386 INFO  [MGCP] (service-scheduler-2) tx=147483695 Started, message= DLCX mobicents/bridge/6@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:34:04,389 INFO  [MGCP] (scheduler-worker-6) tx=147483693 was executed normaly
+2016-03-13 20:34:04,421 INFO  [MGCP] (scheduler-worker-6) tx=147483695 was executed normaly
+2016-03-13 20:34:04,422 INFO  [MGCP] (scheduler-worker-7) tx=147483694 was executed normaly
+2016-03-13 20:34:45,935 INFO  [Server] (scheduler-worker-9) Global hearbeat is still alive
+2016-03-13 20:35:00,393 INFO  [MGCP] (service-scheduler-9) tx=147483696 Started, message= CRCX mobicents/bridge/$@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:35:00,398 INFO  [MGCP] (scheduler-worker-1) tx=147483696 was executed normaly
+2016-03-13 20:35:00,404 INFO  [MGCP] (service-scheduler-4) tx=147483697 Started, message= MDCX mobicents/ivr/7@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:35:00,416 INFO  [MGCP] (scheduler-worker-9) tx=147483697 was executed normaly
+2016-03-13 20:35:00,428 INFO  [MGCP] (service-scheduler-10) tx=147483698 Started, message= CRCX mobicents/bridge/7@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:35:00,439 INFO  [MGCP] (scheduler-worker-3) tx=147483698 was executed normaly
+2016-03-13 20:35:01,102 INFO  [MGCP] (service-scheduler-8) tx=147483699 Started, message= RQNT mobicents/ivr/7@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:35:01,116 INFO  [Play] (scheduler-worker-2) (mobicents/ivr/7) Start announcement (segment=0)
+2016-03-13 20:35:01,244 INFO  [MGCP] (scheduler-worker-2) tx=147483699 was executed normaly
+2016-03-13 20:35:02,026 INFO  [MGCP] (service-scheduler-2) tx=147483700 Started, message= DLCX mobicents/bridge/7@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:35:02,037 INFO  [MGCP] (scheduler-worker-0) tx=147483700 was executed normaly
+2016-03-13 20:35:02,037 INFO  [MGCP] (service-scheduler-5) tx=147483701 Started, message= DLCX mobicents/ivr/7@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:35:02,082 INFO  [MGCP] (scheduler-worker-4) tx=147483701 was executed normaly
+2016-03-13 20:35:45,935 INFO  [Server] (scheduler-worker-1) Global hearbeat is still alive
+2016-03-13 20:36:26,951 INFO  [MGCP] (service-scheduler-6) tx=147483702 Started, message= CRCX mobicents/bridge/$@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:36:26,955 INFO  [MGCP] (scheduler-worker-8) tx=147483702 was executed normaly
+2016-03-13 20:36:26,960 INFO  [MGCP] (service-scheduler-6) tx=147483703 Started, message= MDCX mobicents/ivr/8@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:36:26,976 INFO  [MGCP] (scheduler-worker-2) tx=147483703 was executed normaly
+2016-03-13 20:36:26,981 INFO  [MGCP] (service-scheduler-10) tx=147483704 Started, message= CRCX mobicents/bridge/8@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:36:26,999 INFO  [MGCP] (scheduler-worker-4) tx=147483704 was executed normaly
+2016-03-13 20:36:27,313 INFO  [MGCP] (service-scheduler-3) tx=147483705 Started, message= RQNT mobicents/ivr/8@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:36:27,316 INFO  [Play] (scheduler-worker-1) (mobicents/ivr/8) Start announcement (segment=0)
+2016-03-13 20:36:27,334 INFO  [MGCP] (scheduler-worker-1) tx=147483705 was executed normaly
+2016-03-13 20:36:27,433 INFO  [MGCP] (service-scheduler-2) tx=147483706 Started, message= DLCX mobicents/bridge/8@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:36:27,436 INFO  [MGCP] (service-scheduler-2) tx=147483707 Started, message= DLCX mobicents/ivr/8@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:36:27,436 INFO  [MGCP] (scheduler-worker-8) tx=147483706 was executed normaly
+2016-03-13 20:36:27,446 INFO  [MGCP] (scheduler-worker-6) tx=147483707 was executed normaly
+2016-03-13 20:36:45,936 INFO  [Server] (scheduler-worker-9) Global hearbeat is still alive
+2016-03-13 20:37:22,015 INFO  [MGCP] (service-scheduler-3) tx=147483708 Started, message= CRCX mobicents/bridge/$@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:37:22,018 INFO  [MGCP] (scheduler-worker-1) tx=147483708 was executed normaly
+2016-03-13 20:37:22,024 INFO  [MGCP] (service-scheduler-1) tx=147483709 Started, message= MDCX mobicents/ivr/9@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:37:22,035 INFO  [MGCP] (scheduler-worker-0) tx=147483709 was executed normaly
+2016-03-13 20:37:22,041 INFO  [MGCP] (service-scheduler-8) tx=147483710 Started, message= CRCX mobicents/bridge/9@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:37:22,059 INFO  [MGCP] (scheduler-worker-0) tx=147483710 was executed normaly
+2016-03-13 20:37:22,485 INFO  [MGCP] (service-scheduler-4) tx=147483711 Started, message= RQNT mobicents/ivr/9@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:37:22,496 INFO  [Play] (scheduler-worker-7) (mobicents/ivr/9) Start announcement (segment=0)
+2016-03-13 20:37:22,520 INFO  [MGCP] (scheduler-worker-7) tx=147483711 was executed normaly
+2016-03-13 20:37:22,853 INFO  [MGCP] (service-scheduler-5) tx=147483712 Started, message= DLCX mobicents/bridge/9@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:37:22,855 INFO  [MGCP] (service-scheduler-5) tx=147483713 Started, message= DLCX mobicents/ivr/9@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:37:22,856 INFO  [MGCP] (scheduler-worker-5) tx=147483712 was executed normaly
+2016-03-13 20:37:22,857 INFO  [MGCP] (scheduler-worker-5) tx=147483713 was executed normaly
+2016-03-13 20:37:45,939 INFO  [Server] (scheduler-worker-9) Global hearbeat is still alive
+2016-03-13 20:38:45,936 INFO  [Server] (scheduler-worker-9) Global hearbeat is still alive
+2016-03-13 20:39:37,459 INFO  [MGCP] (service-scheduler-2) tx=147483714 Started, message= CRCX mobicents/bridge/$@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:39:37,476 INFO  [MGCP] (scheduler-worker-4) tx=147483714 was executed normaly
+2016-03-13 20:39:37,482 INFO  [MGCP] (service-scheduler-8) tx=147483715 Started, message= MDCX mobicents/ivr/10@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:39:37,495 INFO  [MGCP] (scheduler-worker-5) tx=147483715 was executed normaly
+2016-03-13 20:39:37,499 INFO  [MGCP] (service-scheduler-2) tx=147483716 Started, message= CRCX mobicents/bridge/10@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:39:37,517 INFO  [NioServer] (scheduler-worker-5) Started NIO Server
+2016-03-13 20:39:37,523 INFO  [MGCP] (scheduler-worker-5) tx=147483716 was executed normaly
+2016-03-13 20:39:37,890 INFO  [MGCP] (service-scheduler-10) tx=147483717 Started, message= RQNT mobicents/ivr/10@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:39:37,897 INFO  [Play] (scheduler-worker-0) (mobicents/ivr/10) Start announcement (segment=0)
+2016-03-13 20:39:37,911 INFO  [MGCP] (scheduler-worker-0) tx=147483717 was executed normaly
+2016-03-13 20:39:38,240 WARN  [NioServer] (Thread-10) No handler found to process incoming packet. Packet will be dropped.
+2016-03-13 20:39:38,283 INFO  [IceAgent] (Thread-10) Selected RTP candidate on address us.lintasbpn.com:65514
+2016-03-13 20:39:38,283 INFO  [IceAgent] (Thread-10) Selected all candidate pairs!
+2016-03-13 20:39:38,283 INFO  [NioServer] (Thread-10) Stopping NIO Server...
+2016-03-13 20:39:38,284 INFO  [RtpChannel] (Thread-10) Adding stun handler to pipeline. Null? false
+2016-03-13 20:39:38,284 INFO  [NioServer] (Thread-10) NIO Server stopped
+2016-03-13 20:39:39,648 INFO  [DtlsSrtpServer] (Thread-11) Received client certificate chain of length 1
+2016-03-13 20:39:39,648 INFO  [DtlsSrtpServer] (Thread-11) WebRTC Client certificate fingerprint:sha-256 C6:16:52:D0:5F:4D:DE:23:80:9A:27:EA:64:55:49:0B:45:84:93:96:1F:77:72:9D:A9:1C:58:55:DF:2B:9F:F5 (CN=WebRTC)
+2016-03-13 20:39:39,662 INFO  [RtpChannel] (Thread-11) DTLS handshake completed for RTP candidate.
+2016-03-13 20:39:40,055 INFO  [RtpHandler] (service-scheduler-5) Restarting jitter buffer
+2016-03-13 20:39:40,056 INFO  [JitterBuffer] (service-scheduler-5) Format has been changed: 8 AudioFormat[pcma,8000,8,mono]
+2016-03-13 20:39:40,115 WARN  [Channel] (service-scheduler-8) No protocol handler was found to process an incoming packet. Packet will be dropped.
+2016-03-13 20:39:45,530 WARN  [Channel] (service-scheduler-6) No protocol handler was found to process an incoming packet. Packet will be dropped.
+2016-03-13 20:39:45,936 INFO  [Server] (scheduler-worker-5) Global hearbeat is still alive
+2016-03-13 20:39:49,081 WARN  [Channel] (service-scheduler-8) No protocol handler was found to process an incoming packet. Packet will be dropped.
+2016-03-13 20:39:49,296 INFO  [AudioPlayerImpl] (scheduler-worker-9) (mobicents/ivr/10) End of file reached
+2016-03-13 20:39:49,297 INFO  [Play] (scheduler-worker-9) (mobicents/ivr/10) Announcement (segment=0) has completed
+2016-03-13 20:39:49,297 INFO  [MGCP] (scheduler-worker-9) tx=8 Started, message= NTFY mobicents/ivr/10@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:39:49,297 INFO  [MGCP] (scheduler-worker-4) tx=8 was executed normaly
+2016-03-13 20:39:49,305 INFO  [MGCP] (service-scheduler-3) tx=147483719 Started, message= DLCX mobicents/bridge/10@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:39:49,307 INFO  [MGCP] (service-scheduler-10) tx=147483720 Started, message= DLCX mobicents/ivr/10@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 20:39:49,316 INFO  [MGCP] (scheduler-worker-2) tx=147483719 was executed normaly
+2016-03-13 20:39:49,316 INFO  [MGCP] (scheduler-worker-2) tx=147483720 was executed normaly
+2016-03-13 20:40:45,938 INFO  [Server] (scheduler-worker-5) Global hearbeat is still alive
+2016-03-13 20:41:45,937 INFO  [Server] (scheduler-worker-5) Global hearbeat is still alive
+2016-03-13 20:42:45,936 INFO  [Server] (scheduler-worker-5) Global hearbeat is still alive
+2016-03-13 20:43:45,936 INFO  [Server] (scheduler-worker-5) Global hearbeat is still alive
+2016-03-13 20:44:45,935 INFO  [Server] (scheduler-worker-5) Global hearbeat is still alive
+2016-03-13 20:45:45,935 INFO  [Server] (scheduler-worker-5) Global hearbeat is still alive
+2016-03-13 20:46:45,935 INFO  [Server] (scheduler-worker-5) Global hearbeat is still alive
+2016-03-13 20:47:45,935 INFO  [Server] (scheduler-worker-5) Global hearbeat is still alive
+2016-03-13 20:48:45,935 INFO  [Server] (scheduler-worker-5) Global hearbeat is still alive
+2016-03-13 20:49:45,935 INFO  [Server] (scheduler-worker-5) Global hearbeat is still alive
+2016-03-13 20:50:45,935 INFO  [Server] (scheduler-worker-5) Global hearbeat is still alive
+2016-03-13 20:51:45,935 INFO  [Server] (scheduler-worker-5) Global hearbeat is still alive
+2016-03-13 20:52:45,935 INFO  [Server] (scheduler-worker-5) Global hearbeat is still alive
+2016-03-13 20:53:45,935 INFO  [Server] (scheduler-worker-5) Global hearbeat is still alive
+2016-03-13 20:54:45,935 INFO  [Server] (scheduler-worker-5) Global hearbeat is still alive
+2016-03-13 20:55:45,935 INFO  [Server] (scheduler-worker-5) Global hearbeat is still alive
+2016-03-13 20:56:45,935 INFO  [Server] (scheduler-worker-5) Global hearbeat is still alive
+2016-03-13 20:57:45,935 INFO  [Server] (scheduler-worker-5) Global hearbeat is still alive
+2016-03-13 20:58:45,935 INFO  [Server] (scheduler-worker-5) Global hearbeat is still alive
+2016-03-13 20:59:45,935 INFO  [Server] (scheduler-worker-5) Global hearbeat is still alive
+2016-03-13 21:00:45,935 INFO  [Server] (scheduler-worker-5) Global hearbeat is still alive
+2016-03-13 21:01:02,784 INFO  [MGCP] (service-scheduler-9) tx=147483721 Started, message= CRCX mobicents/bridge/$@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 21:01:02,796 INFO  [MGCP] (scheduler-worker-4) tx=147483721 was executed normaly
+2016-03-13 21:01:02,801 INFO  [MGCP] (service-scheduler-4) tx=147483722 Started, message= MDCX mobicents/ivr/11@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 21:01:02,816 INFO  [MGCP] (scheduler-worker-2) tx=147483722 was executed normaly
+2016-03-13 21:01:02,852 INFO  [MGCP] (service-scheduler-3) tx=147483723 Started, message= CRCX mobicents/bridge/11@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 21:01:02,860 INFO  [MGCP] (scheduler-worker-0) tx=147483723 was executed normaly
+2016-03-13 21:01:03,359 INFO  [MGCP] (service-scheduler-5) tx=147483724 Started, message= RQNT mobicents/ivr/11@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 21:01:03,376 INFO  [Play] (scheduler-worker-9) (mobicents/ivr/11) Start announcement (segment=0)
+2016-03-13 21:01:03,393 INFO  [MGCP] (scheduler-worker-9) tx=147483724 was executed normaly
+2016-03-13 21:01:03,593 INFO  [MGCP] (service-scheduler-2) tx=147483725 Started, message= DLCX mobicents/bridge/11@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 21:01:03,596 INFO  [MGCP] (service-scheduler-2) tx=147483726 Started, message= DLCX mobicents/ivr/11@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 21:01:03,602 INFO  [MGCP] (scheduler-worker-2) tx=147483726 was executed normaly
+2016-03-13 21:01:03,602 INFO  [MGCP] (scheduler-worker-3) tx=147483725 was executed normaly
+2016-03-13 21:01:22,505 INFO  [MGCP] (service-scheduler-9) tx=147483727 Started, message= CRCX mobicents/bridge/$@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 21:01:22,517 INFO  [MGCP] (scheduler-worker-0) tx=147483727 was executed normaly
+2016-03-13 21:01:22,521 INFO  [MGCP] (service-scheduler-4) tx=147483728 Started, message= MDCX mobicents/ivr/12@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 21:01:22,535 INFO  [MGCP] (scheduler-worker-1) tx=147483728 was executed normaly
+2016-03-13 21:01:22,540 INFO  [MGCP] (service-scheduler-2) tx=147483729 Started, message= CRCX mobicents/bridge/12@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 21:01:22,557 INFO  [MGCP] (scheduler-worker-1) tx=147483729 was executed normaly
+2016-03-13 21:01:22,883 INFO  [MGCP] (service-scheduler-3) tx=147483730 Started, message= RQNT mobicents/ivr/12@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 21:01:22,896 INFO  [Play] (scheduler-worker-0) (mobicents/ivr/12) Start announcement (segment=0)
+2016-03-13 21:01:22,910 INFO  [MGCP] (scheduler-worker-0) tx=147483730 was executed normaly
+2016-03-13 21:01:23,015 INFO  [MGCP] (service-scheduler-6) tx=147483731 Started, message= DLCX mobicents/bridge/12@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 21:01:23,017 INFO  [MGCP] (service-scheduler-9) tx=147483732 Started, message= DLCX mobicents/ivr/12@185.28.22.37:2427, call agent = us.lintasbpn.com/185.28.22.37:2727
+2016-03-13 21:01:23,037 INFO  [MGCP] (scheduler-worker-9) tx=147483731 was executed normaly
+2016-03-13 21:01:23,037 INFO  [MGCP] (scheduler-worker-3) tx=147483732 was executed normaly
+2016-03-13 21:01:45,935 INFO  [Server] (scheduler-worker-8) Global hearbeat is still alive
+2016-03-13 21:02:45,935 INFO  [Server] (scheduler-worker-8) Global hearbeat is still alive
+2016-03-13 21:03:45,936 INFO  [Server] (scheduler-worker-8) Global hearbeat is still alive
+2016-03-13 21:04:45,349 INFO  [MGCP] (Thread-0) Controller stopped
+2016-03-13 21:04:45,349 INFO  [MGCP] (Thread-0) Set scheduler: null
+2016-03-13 21:04:45,349 INFO  [MGCP] (Thread-0) Set server
+2016-03-13 21:04:45,353 INFO  [Server] (Thread-0) Stopping UDP Manager
+2016-03-13 21:04:45,353 INFO  [UdpManager] (Thread-0) Stopping UDP Manager
+2016-03-13 21:04:45,354 INFO  [UdpManager] (Thread-0) UDP Manager has stopped
+2016-03-13 21:04:45,354 INFO  [Server] (Thread-0) Stopping scheduler
+2016-03-13 21:04:45,394 INFO  [Server] (Thread-0) Stopped media server instance 
+2016-03-13 21:04:45,513 INFO  [ServiceScheduler] (Thread-0) Stopped scheduler!
+2016-03-13 21:04:45,565 INFO  [MainDeployer] (Thread-0) Stopped

@@ -1,0 +1,25 @@
+<rvd>
+	<!--
+		A path to the projects' workspace. Both absolute and relative paths are supported. Relative paths
+		are related RVD web application context. Namely $RESTCOMM_HOME/standalone/deployments/restcomm-rvd.war/.
+
+		Example:
+			Absolute path example:
+				/home/otsakir/Restcomm/standalone/deployments/restcomm-rvd.war/workspace
+
+			Relative path example:
+				workspace
+
+		Required: yes
+	-->
+	<workspaceLocation>workspace</workspaceLocation>
+
+	<!--
+		Override automatic restcomm address resolution.
+
+		Example:
+			<restcommBaseUrl>http://192.168.0.2:8080</restcommBaseUrl>
+	-->
+	<restcommBaseUrl></restcommBaseUrl>
+
+</rvd>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+	<Say>Selamat Datang di Aplikasi LINTAS Badan Pertanahan Nasional. Welcome to the Indonesian National Land Agency. Here is LINTAS Applications</Say>
+	<!--
+	<Say>Welcome to RestComm, a TeleStax sponsored project.</Say>
+	<Say language="de">Willkommen bei RestComm einem TeleStax geförderten Projektes.</Say>
+	<Say language="fr">Bienvenue à RestComm un projet parrainé par TeleStax .</Say>
+	-->
+</Response>

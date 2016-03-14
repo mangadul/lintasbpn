@@ -1,0 +1,1198 @@
+14:59:45,949 INFO  [gov.nist.javax.sip.stack.UDPMessageChannel] (Restcomm-SIP-Servlets-UDPMessageChannelThread-470) Setting SIPMessage peerPacketSource to: /110.136.107.220:41453
+14:59:45,976 INFO  [gov.nist.javax.sip.stack.SIPTransactionStack] (Restcomm-SIP-Servlets-UDPMessageChannelThread-470) <message
+from="110.136.107.220:41453" 
+to="185.28.22.37:5080" 
+time="1457380785948"
+isSender="false" 
+transactionId="z9hg4bk-524287-1---916bf15f0b32f1d6" 
+callId="phy_HVkwgMltKtd3s4JpPw.." 
+firstLine="REGISTER sip:lintasbpn.com;transport=UDP SIP/2.0" 
+>
+<![CDATA[REGISTER sip:lintasbpn.com;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.6:41453;branch=z9hG4bK-524287-1---916bf15f0b32f1d6;rport=41453;received=110.136.107.220
+Max-Forwards: 70
+Contact: <sip:astri@192.168.0.6:41453;rinstance=93c44420ca8a7438;transport=UDP>
+To: <sip:astri@lintasbpn.com;transport=UDP>
+From: <sip:astri@lintasbpn.com;transport=UDP>;tag=a0b7025a
+Call-ID: phy_HVkwgMltKtd3s4JpPw..
+CSeq: 1 REGISTER
+Expires: 60
+Allow: INVITE,ACK,CANCEL,BYE,NOTIFY,REFER,MESSAGE,OPTIONS,INFO,SUBSCRIBE
+Supported: replaces,norefersub,extended-refer,timer,outbound,path,X-cisco-serviceuri
+User-Agent: Zoiper r35079
+Allow-Events: presence,kpml
+Content-Length: 0
+
+]]>
+</message>
+
+14:59:45,978 INFO  [org.mobicents.servlet.sip.core.dispatchers.InitialRequestDispatcher] (Restcomm-SIP-Servlets-UDPMessageChannelThread-470) Request event dispatched to RestComm
+14:59:45,979 INFO  [gov.nist.javax.sip.stack.SIPTransactionStack] (RestComm-akka.actor.default-dispatcher-2886) <message
+from="185.28.22.37:5080" 
+to="110.136.107.220:41453" 
+time="1457380785978"
+isSender="true" 
+transactionId="z9hg4bk-524287-1---916bf15f0b32f1d6" 
+callId="phy_HVkwgMltKtd3s4JpPw.." 
+firstLine="SIP/2.0 407 Proxy Authentication required" 
+>
+<![CDATA[SIP/2.0 407 Proxy Authentication required
+To: <sip:astri@lintasbpn.com;transport=UDP>;tag=83504190_d9dada9f_57a5b08a_6b961324
+Via: SIP/2.0/UDP 192.168.0.6:41453;branch=z9hG4bK-524287-1---916bf15f0b32f1d6;rport=41453;received=110.136.107.220
+CSeq: 1 REGISTER
+Call-ID: phy_HVkwgMltKtd3s4JpPw..
+From: <sip:astri@lintasbpn.com;transport=UDP>;tag=a0b7025a
+Server: Restcomm 7.6.0.825
+Proxy-Authenticate: Digest realm="lintasbpn.com",nonce="61663863633061632d636338662d346"
+Content-Length: 0
+
+]]>
+</message>
+
+14:59:46,317 INFO  [gov.nist.javax.sip.stack.UDPMessageChannel] (Restcomm-SIP-Servlets-UDPMessageChannelThread-471) Setting SIPMessage peerPacketSource to: /110.136.107.220:41453
+14:59:46,318 INFO  [gov.nist.javax.sip.stack.SIPTransactionStack] (Restcomm-SIP-Servlets-UDPMessageChannelThread-471) <message
+from="110.136.107.220:41453" 
+to="185.28.22.37:5080" 
+time="1457380786316"
+isSender="false" 
+transactionId="z9hg4bk-524287-1---9102e75312c379ed" 
+callId="phy_HVkwgMltKtd3s4JpPw.." 
+firstLine="REGISTER sip:lintasbpn.com;transport=UDP SIP/2.0" 
+>
+<![CDATA[REGISTER sip:lintasbpn.com;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.6:41453;branch=z9hG4bK-524287-1---9102e75312c379ed;rport=41453;received=110.136.107.220
+Max-Forwards: 70
+Contact: <sip:astri@192.168.0.6:41453;rinstance=93c44420ca8a7438;transport=UDP>
+To: <sip:astri@lintasbpn.com;transport=UDP>
+From: <sip:astri@lintasbpn.com;transport=UDP>;tag=a0b7025a
+Call-ID: phy_HVkwgMltKtd3s4JpPw..
+CSeq: 2 REGISTER
+Expires: 60
+Allow: INVITE,ACK,CANCEL,BYE,NOTIFY,REFER,MESSAGE,OPTIONS,INFO,SUBSCRIBE
+Proxy-Authorization: Digest username="astri",realm="lintasbpn.com",nonce="61663863633061632d636338662d346",uri="sip:lintasbpn.com;transport=UDP",response="2796132b046224e53bb7d2b07b8a53c8",algorithm=MD5
+Supported: replaces,norefersub,extended-refer,timer,outbound,path,X-cisco-serviceuri
+User-Agent: Zoiper r35079
+Allow-Events: presence,kpml
+Content-Length: 0
+
+]]>
+</message>
+
+14:59:46,319 INFO  [org.mobicents.servlet.sip.core.dispatchers.InitialRequestDispatcher] (Restcomm-SIP-Servlets-UDPMessageChannelThread-471) Request event dispatched to RestComm
+14:59:46,322 INFO  [gov.nist.javax.sip.stack.SIPTransactionStack] (RestComm-akka.actor.default-dispatcher-2886) <message
+from="185.28.22.37:5080" 
+to="110.136.107.220:41453" 
+time="1457380786321"
+isSender="true" 
+transactionId="z9hg4bk-524287-1---9102e75312c379ed" 
+callId="phy_HVkwgMltKtd3s4JpPw.." 
+firstLine="SIP/2.0 407 Proxy Authentication required" 
+>
+<![CDATA[SIP/2.0 407 Proxy Authentication required
+To: <sip:astri@lintasbpn.com;transport=UDP>;tag=27090784_d9dada9f_57a5b08a_9e22eb94
+Via: SIP/2.0/UDP 192.168.0.6:41453;branch=z9hG4bK-524287-1---9102e75312c379ed;rport=41453;received=110.136.107.220
+CSeq: 2 REGISTER
+Call-ID: phy_HVkwgMltKtd3s4JpPw..
+From: <sip:astri@lintasbpn.com;transport=UDP>;tag=a0b7025a
+Server: Restcomm 7.6.0.825
+Proxy-Authenticate: Digest realm="lintasbpn.com",nonce="37393263303030362d386437632d346"
+Content-Length: 0
+
+]]>
+</message>
+
+14:59:46,659 INFO  [gov.nist.javax.sip.stack.UDPMessageChannel] (Restcomm-SIP-Servlets-UDPMessageChannelThread-472) Setting SIPMessage peerPacketSource to: /110.136.107.220:41453
+14:59:46,660 INFO  [gov.nist.javax.sip.stack.SIPTransactionStack] (Restcomm-SIP-Servlets-UDPMessageChannelThread-472) <message
+from="110.136.107.220:41453" 
+to="185.28.22.37:5080" 
+time="1457380786658"
+isSender="false" 
+transactionId="z9hg4bk-524287-1---e54b03e49866578e" 
+callId="phy_HVkwgMltKtd3s4JpPw.." 
+firstLine="REGISTER sip:lintasbpn.com;transport=UDP SIP/2.0" 
+>
+<![CDATA[REGISTER sip:lintasbpn.com;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.6:41453;branch=z9hG4bK-524287-1---e54b03e49866578e;rport=41453;received=110.136.107.220
+Max-Forwards: 70
+Contact: <sip:astri@192.168.0.6:41453;rinstance=93c44420ca8a7438;transport=UDP>
+To: <sip:astri@lintasbpn.com;transport=UDP>
+From: <sip:astri@lintasbpn.com;transport=UDP>;tag=a0b7025a
+Call-ID: phy_HVkwgMltKtd3s4JpPw..
+CSeq: 3 REGISTER
+Expires: 60
+Allow: INVITE,ACK,CANCEL,BYE,NOTIFY,REFER,MESSAGE,OPTIONS,INFO,SUBSCRIBE
+Proxy-Authorization: Digest username="astri",realm="lintasbpn.com",nonce="37393263303030362d386437632d346",uri="sip:lintasbpn.com;transport=UDP",response="bb2abad0e7506d9b4a7c7e18d9d8287c",algorithm=MD5
+Supported: replaces,norefersub,extended-refer,timer,outbound,path,X-cisco-serviceuri
+User-Agent: Zoiper r35079
+Allow-Events: presence,kpml
+Content-Length: 0
+
+]]>
+</message>
+
+14:59:46,661 INFO  [org.mobicents.servlet.sip.core.dispatchers.InitialRequestDispatcher] (Restcomm-SIP-Servlets-UDPMessageChannelThread-472) Request event dispatched to RestComm
+14:59:46,664 INFO  [gov.nist.javax.sip.stack.SIPTransactionStack] (RestComm-akka.actor.default-dispatcher-2886) <message
+from="185.28.22.37:5080" 
+to="110.136.107.220:41453" 
+time="1457380786663"
+isSender="true" 
+transactionId="z9hg4bk-524287-1---e54b03e49866578e" 
+callId="phy_HVkwgMltKtd3s4JpPw.." 
+firstLine="SIP/2.0 407 Proxy Authentication required" 
+>
+<![CDATA[SIP/2.0 407 Proxy Authentication required
+To: <sip:astri@lintasbpn.com;transport=UDP>;tag=69170664_d9dada9f_57a5b08a_b19bc07f
+Via: SIP/2.0/UDP 192.168.0.6:41453;branch=z9hG4bK-524287-1---e54b03e49866578e;rport=41453;received=110.136.107.220
+CSeq: 3 REGISTER
+Call-ID: phy_HVkwgMltKtd3s4JpPw..
+From: <sip:astri@lintasbpn.com;transport=UDP>;tag=a0b7025a
+Server: Restcomm 7.6.0.825
+Proxy-Authenticate: Digest realm="lintasbpn.com",nonce="61663732303039302d393434392d343"
+Content-Length: 0
+
+]]>
+</message>
+
+15:02:45,978 INFO  [org.mobicents.servlet.sip.core.session.SipApplicationSessionImpl] (RestComm_sip_standard_sas_timer_service) Invalidating the following sip application session 6b961324;RestComm
+15:02:45,979 INFO  [org.mobicents.servlet.sip.core.session.SipSessionImpl] (RestComm_sip_standard_sas_timer_service) Invalidating the sip session (a0b7025a;phy_HVkwgMltKtd3s4JpPw..;6b961324;RestComm)
+15:02:45,979 INFO  [org.mobicents.servlet.sip.core.session.SipApplicationSessionImpl] (RestComm_sip_standard_sas_timer_service) The following sip application session 6b961324;RestComm has been invalidated
+15:02:46,321 INFO  [org.mobicents.servlet.sip.core.session.SipApplicationSessionImpl] (RestComm_sip_standard_sas_timer_service) Invalidating the following sip application session 9e22eb94;RestComm
+15:02:46,322 INFO  [org.mobicents.servlet.sip.core.session.SipSessionImpl] (RestComm_sip_standard_sas_timer_service) Invalidating the sip session (a0b7025a;phy_HVkwgMltKtd3s4JpPw..;9e22eb94;RestComm)
+15:02:46,322 INFO  [org.mobicents.servlet.sip.core.session.SipApplicationSessionImpl] (RestComm_sip_standard_sas_timer_service) The following sip application session 9e22eb94;RestComm has been invalidated
+15:02:46,664 INFO  [org.mobicents.servlet.sip.core.session.SipApplicationSessionImpl] (RestComm_sip_standard_sas_timer_service) Invalidating the following sip application session b19bc07f;RestComm
+15:02:46,664 INFO  [org.mobicents.servlet.sip.core.session.SipSessionImpl] (RestComm_sip_standard_sas_timer_service) Invalidating the sip session (a0b7025a;phy_HVkwgMltKtd3s4JpPw..;b19bc07f;RestComm)
+15:02:46,664 INFO  [org.mobicents.servlet.sip.core.session.SipApplicationSessionImpl] (RestComm_sip_standard_sas_timer_service) The following sip application session b19bc07f;RestComm has been invalidated
+16:56:48,540 INFO  [gov.nist.javax.sip.stack.UDPMessageChannel] (Restcomm-SIP-Servlets-UDPMessageChannelThread-473) Setting SIPMessage peerPacketSource to: /110.136.107.220:45803
+16:56:48,541 INFO  [gov.nist.javax.sip.stack.SIPTransactionStack] (Restcomm-SIP-Servlets-UDPMessageChannelThread-473) <message
+from="110.136.107.220:45803" 
+to="185.28.22.37:5080" 
+time="1457387808539"
+isSender="false" 
+transactionId="z9hg4bk-524287-1---49f72996109bb50d" 
+callId="NBmcdWebknXUrvRIjT9EjA.." 
+firstLine="REGISTER sip:lintasbpn.com;transport=UDP SIP/2.0" 
+>
+<![CDATA[REGISTER sip:lintasbpn.com;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.6:45803;branch=z9hG4bK-524287-1---49f72996109bb50d;rport=45803;received=110.136.107.220
+Max-Forwards: 70
+Contact: <sip:astri@192.168.0.6:45803;rinstance=15b5b14d88b0587f;transport=UDP>
+To: <sip:astri@lintasbpn.com;transport=UDP>
+From: <sip:astri@lintasbpn.com;transport=UDP>;tag=5924730e
+Call-ID: NBmcdWebknXUrvRIjT9EjA..
+CSeq: 1 REGISTER
+Expires: 60
+Allow: INVITE,ACK,CANCEL,BYE,NOTIFY,REFER,MESSAGE,OPTIONS,INFO,SUBSCRIBE
+Supported: replaces,norefersub,extended-refer,timer,outbound,path,X-cisco-serviceuri
+User-Agent: Zoiper r35079
+Allow-Events: presence,kpml
+Content-Length: 0
+
+]]>
+</message>
+
+16:56:48,544 INFO  [org.mobicents.servlet.sip.core.dispatchers.InitialRequestDispatcher] (Restcomm-SIP-Servlets-UDPMessageChannelThread-473) Request event dispatched to RestComm
+16:56:48,545 INFO  [gov.nist.javax.sip.stack.SIPTransactionStack] (RestComm-akka.actor.default-dispatcher-3004) <message
+from="185.28.22.37:5080" 
+to="110.136.107.220:45803" 
+time="1457387808545"
+isSender="true" 
+transactionId="z9hg4bk-524287-1---49f72996109bb50d" 
+callId="NBmcdWebknXUrvRIjT9EjA.." 
+firstLine="SIP/2.0 407 Proxy Authentication required" 
+>
+<![CDATA[SIP/2.0 407 Proxy Authentication required
+To: <sip:astri@lintasbpn.com;transport=UDP>;tag=50508454_d9dada9f_57a5b08a_8b4207c4
+Via: SIP/2.0/UDP 192.168.0.6:45803;branch=z9hG4bK-524287-1---49f72996109bb50d;rport=45803;received=110.136.107.220
+CSeq: 1 REGISTER
+Call-ID: NBmcdWebknXUrvRIjT9EjA..
+From: <sip:astri@lintasbpn.com;transport=UDP>;tag=5924730e
+Server: Restcomm 7.6.0.825
+Proxy-Authenticate: Digest realm="lintasbpn.com",nonce="62363032316135652d376137372d346"
+Content-Length: 0
+
+]]>
+</message>
+
+16:56:48,827 INFO  [gov.nist.javax.sip.stack.UDPMessageChannel] (Restcomm-SIP-Servlets-UDPMessageChannelThread-474) Setting SIPMessage peerPacketSource to: /110.136.107.220:45803
+16:56:48,828 INFO  [gov.nist.javax.sip.stack.SIPTransactionStack] (Restcomm-SIP-Servlets-UDPMessageChannelThread-474) <message
+from="110.136.107.220:45803" 
+to="185.28.22.37:5080" 
+time="1457387808826"
+isSender="false" 
+transactionId="z9hg4bk-524287-1---94b7569922b12f9b" 
+callId="NBmcdWebknXUrvRIjT9EjA.." 
+firstLine="REGISTER sip:lintasbpn.com;transport=UDP SIP/2.0" 
+>
+<![CDATA[REGISTER sip:lintasbpn.com;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.6:45803;branch=z9hG4bK-524287-1---94b7569922b12f9b;rport=45803;received=110.136.107.220
+Max-Forwards: 70
+Contact: <sip:astri@192.168.0.6:45803;rinstance=15b5b14d88b0587f;transport=UDP>
+To: <sip:astri@lintasbpn.com;transport=UDP>
+From: <sip:astri@lintasbpn.com;transport=UDP>;tag=5924730e
+Call-ID: NBmcdWebknXUrvRIjT9EjA..
+CSeq: 2 REGISTER
+Expires: 60
+Allow: INVITE,ACK,CANCEL,BYE,NOTIFY,REFER,MESSAGE,OPTIONS,INFO,SUBSCRIBE
+Proxy-Authorization: Digest username="astri",realm="lintasbpn.com",nonce="62363032316135652d376137372d346",uri="sip:lintasbpn.com;transport=UDP",response="6f09675b35222d0e3c9ceb6e2f47f51f",algorithm=MD5
+Supported: replaces,norefersub,extended-refer,timer,outbound,path,X-cisco-serviceuri
+User-Agent: Zoiper r35079
+Allow-Events: presence,kpml
+Content-Length: 0
+
+]]>
+</message>
+
+16:56:48,829 INFO  [org.mobicents.servlet.sip.core.dispatchers.InitialRequestDispatcher] (Restcomm-SIP-Servlets-UDPMessageChannelThread-474) Request event dispatched to RestComm
+16:56:48,834 INFO  [gov.nist.javax.sip.stack.SIPTransactionStack] (RestComm-akka.actor.default-dispatcher-3004) <message
+from="185.28.22.37:5080" 
+to="110.136.107.220:45803" 
+time="1457387808833"
+isSender="true" 
+transactionId="z9hg4bk-524287-1---94b7569922b12f9b" 
+callId="NBmcdWebknXUrvRIjT9EjA.." 
+firstLine="SIP/2.0 407 Proxy Authentication required" 
+>
+<![CDATA[SIP/2.0 407 Proxy Authentication required
+To: <sip:astri@lintasbpn.com;transport=UDP>;tag=39122760_d9dada9f_57a5b08a_46917bbc
+Via: SIP/2.0/UDP 192.168.0.6:45803;branch=z9hG4bK-524287-1---94b7569922b12f9b;rport=45803;received=110.136.107.220
+CSeq: 2 REGISTER
+Call-ID: NBmcdWebknXUrvRIjT9EjA..
+From: <sip:astri@lintasbpn.com;transport=UDP>;tag=5924730e
+Server: Restcomm 7.6.0.825
+Proxy-Authenticate: Digest realm="lintasbpn.com",nonce="39623430353161372d316530622d343"
+Content-Length: 0
+
+]]>
+</message>
+
+16:56:49,145 INFO  [gov.nist.javax.sip.stack.UDPMessageChannel] (Restcomm-SIP-Servlets-UDPMessageChannelThread-434) Setting SIPMessage peerPacketSource to: /110.136.107.220:45803
+16:56:49,146 INFO  [gov.nist.javax.sip.stack.SIPTransactionStack] (Restcomm-SIP-Servlets-UDPMessageChannelThread-434) <message
+from="110.136.107.220:45803" 
+to="185.28.22.37:5080" 
+time="1457387809144"
+isSender="false" 
+transactionId="z9hg4bk-524287-1---19fdf5e3a7d9e550" 
+callId="NBmcdWebknXUrvRIjT9EjA.." 
+firstLine="REGISTER sip:lintasbpn.com;transport=UDP SIP/2.0" 
+>
+<![CDATA[REGISTER sip:lintasbpn.com;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.6:45803;branch=z9hG4bK-524287-1---19fdf5e3a7d9e550;rport=45803;received=110.136.107.220
+Max-Forwards: 70
+Contact: <sip:astri@192.168.0.6:45803;rinstance=15b5b14d88b0587f;transport=UDP>
+To: <sip:astri@lintasbpn.com;transport=UDP>
+From: <sip:astri@lintasbpn.com;transport=UDP>;tag=5924730e
+Call-ID: NBmcdWebknXUrvRIjT9EjA..
+CSeq: 3 REGISTER
+Expires: 60
+Allow: INVITE,ACK,CANCEL,BYE,NOTIFY,REFER,MESSAGE,OPTIONS,INFO,SUBSCRIBE
+Proxy-Authorization: Digest username="astri",realm="lintasbpn.com",nonce="39623430353161372d316530622d343",uri="sip:lintasbpn.com;transport=UDP",response="387a2f1e735316f7ef460e6baa10ac8a",algorithm=MD5
+Supported: replaces,norefersub,extended-refer,timer,outbound,path,X-cisco-serviceuri
+User-Agent: Zoiper r35079
+Allow-Events: presence,kpml
+Content-Length: 0
+
+]]>
+</message>
+
+16:56:49,147 INFO  [org.mobicents.servlet.sip.core.dispatchers.InitialRequestDispatcher] (Restcomm-SIP-Servlets-UDPMessageChannelThread-434) Request event dispatched to RestComm
+16:56:49,150 INFO  [gov.nist.javax.sip.stack.SIPTransactionStack] (RestComm-akka.actor.default-dispatcher-3004) <message
+from="185.28.22.37:5080" 
+to="110.136.107.220:45803" 
+time="1457387809149"
+isSender="true" 
+transactionId="z9hg4bk-524287-1---19fdf5e3a7d9e550" 
+callId="NBmcdWebknXUrvRIjT9EjA.." 
+firstLine="SIP/2.0 407 Proxy Authentication required" 
+>
+<![CDATA[SIP/2.0 407 Proxy Authentication required
+To: <sip:astri@lintasbpn.com;transport=UDP>;tag=55908117_d9dada9f_57a5b08a_ac1c1764
+Via: SIP/2.0/UDP 192.168.0.6:45803;branch=z9hG4bK-524287-1---19fdf5e3a7d9e550;rport=45803;received=110.136.107.220
+CSeq: 3 REGISTER
+Call-ID: NBmcdWebknXUrvRIjT9EjA..
+From: <sip:astri@lintasbpn.com;transport=UDP>;tag=5924730e
+Server: Restcomm 7.6.0.825
+Proxy-Authenticate: Digest realm="lintasbpn.com",nonce="66323465373732372d336363322d343"
+Content-Length: 0
+
+]]>
+</message>
+
+16:59:48,544 INFO  [org.mobicents.servlet.sip.core.session.SipApplicationSessionImpl] (RestComm_sip_standard_sas_timer_service) Invalidating the following sip application session 8b4207c4;RestComm
+16:59:48,545 INFO  [org.mobicents.servlet.sip.core.session.SipSessionImpl] (RestComm_sip_standard_sas_timer_service) Invalidating the sip session (5924730e;NBmcdWebknXUrvRIjT9EjA..;8b4207c4;RestComm)
+16:59:48,545 INFO  [org.mobicents.servlet.sip.core.session.SipApplicationSessionImpl] (RestComm_sip_standard_sas_timer_service) The following sip application session 8b4207c4;RestComm has been invalidated
+16:59:48,834 INFO  [org.mobicents.servlet.sip.core.session.SipApplicationSessionImpl] (RestComm_sip_standard_sas_timer_service) Invalidating the following sip application session 46917bbc;RestComm
+16:59:48,834 INFO  [org.mobicents.servlet.sip.core.session.SipSessionImpl] (RestComm_sip_standard_sas_timer_service) Invalidating the sip session (5924730e;NBmcdWebknXUrvRIjT9EjA..;46917bbc;RestComm)
+16:59:48,834 INFO  [org.mobicents.servlet.sip.core.session.SipApplicationSessionImpl] (RestComm_sip_standard_sas_timer_service) The following sip application session 46917bbc;RestComm has been invalidated
+16:59:49,149 INFO  [org.mobicents.servlet.sip.core.session.SipApplicationSessionImpl] (RestComm_sip_standard_sas_timer_service) Invalidating the following sip application session ac1c1764;RestComm
+16:59:49,149 INFO  [org.mobicents.servlet.sip.core.session.SipSessionImpl] (RestComm_sip_standard_sas_timer_service) Invalidating the sip session (5924730e;NBmcdWebknXUrvRIjT9EjA..;ac1c1764;RestComm)
+16:59:49,149 INFO  [org.mobicents.servlet.sip.core.session.SipApplicationSessionImpl] (RestComm_sip_standard_sas_timer_service) The following sip application session ac1c1764;RestComm has been invalidated
+22:59:42,721 INFO  [gov.nist.javax.sip.stack.UDPMessageChannel] (Restcomm-SIP-Servlets-UDPMessageChannelThread-475) Setting SIPMessage peerPacketSource to: /110.136.107.220:37589
+22:59:42,722 INFO  [gov.nist.javax.sip.stack.SIPTransactionStack] (Restcomm-SIP-Servlets-UDPMessageChannelThread-475) <message
+from="110.136.107.220:37589" 
+to="185.28.22.37:5080" 
+time="1457409582720"
+isSender="false" 
+transactionId="z9hg4bk-524287-1---2171f835644785f1" 
+callId="F-Bqo6fnmwf3dUGUkzzdWg.." 
+firstLine="REGISTER sip:lintasbpn.com;transport=UDP SIP/2.0" 
+>
+<![CDATA[REGISTER sip:lintasbpn.com;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.6:37589;branch=z9hG4bK-524287-1---2171f835644785f1;rport=37589;received=110.136.107.220
+Max-Forwards: 70
+Contact: <sip:astri@192.168.0.6:37589;rinstance=cdb7208204af9023;transport=UDP>
+To: <sip:astri@lintasbpn.com;transport=UDP>
+From: <sip:astri@lintasbpn.com;transport=UDP>;tag=0c108024
+Call-ID: F-Bqo6fnmwf3dUGUkzzdWg..
+CSeq: 1 REGISTER
+Expires: 60
+Allow: INVITE,ACK,CANCEL,BYE,NOTIFY,REFER,MESSAGE,OPTIONS,INFO,SUBSCRIBE
+Supported: replaces,norefersub,extended-refer,timer,outbound,path,X-cisco-serviceuri
+User-Agent: Zoiper r35079
+Allow-Events: presence,kpml
+Content-Length: 0
+
+]]>
+</message>
+
+22:59:42,723 INFO  [org.mobicents.servlet.sip.core.dispatchers.InitialRequestDispatcher] (Restcomm-SIP-Servlets-UDPMessageChannelThread-475) Request event dispatched to RestComm
+22:59:42,724 INFO  [gov.nist.javax.sip.stack.SIPTransactionStack] (RestComm-akka.actor.default-dispatcher-3729) <message
+from="185.28.22.37:5080" 
+to="110.136.107.220:37589" 
+time="1457409582724"
+isSender="true" 
+transactionId="z9hg4bk-524287-1---2171f835644785f1" 
+callId="F-Bqo6fnmwf3dUGUkzzdWg.." 
+firstLine="SIP/2.0 407 Proxy Authentication required" 
+>
+<![CDATA[SIP/2.0 407 Proxy Authentication required
+To: <sip:astri@lintasbpn.com;transport=UDP>;tag=29369746_d9dada9f_57a5b08a_880245b5
+Via: SIP/2.0/UDP 192.168.0.6:37589;branch=z9hG4bK-524287-1---2171f835644785f1;rport=37589;received=110.136.107.220
+CSeq: 1 REGISTER
+Call-ID: F-Bqo6fnmwf3dUGUkzzdWg..
+From: <sip:astri@lintasbpn.com;transport=UDP>;tag=0c108024
+Server: Restcomm 7.6.0.825
+Proxy-Authenticate: Digest realm="lintasbpn.com",nonce="63383839363538612d393634302d343"
+Content-Length: 0
+
+]]>
+</message>
+
+22:59:43,020 INFO  [gov.nist.javax.sip.stack.UDPMessageChannel] (Restcomm-SIP-Servlets-UDPMessageChannelThread-476) Setting SIPMessage peerPacketSource to: /110.136.107.220:37589
+22:59:43,021 INFO  [gov.nist.javax.sip.stack.SIPTransactionStack] (Restcomm-SIP-Servlets-UDPMessageChannelThread-476) <message
+from="110.136.107.220:37589" 
+to="185.28.22.37:5080" 
+time="1457409583019"
+isSender="false" 
+transactionId="z9hg4bk-524287-1---65b135b46d610d2f" 
+callId="F-Bqo6fnmwf3dUGUkzzdWg.." 
+firstLine="REGISTER sip:lintasbpn.com;transport=UDP SIP/2.0" 
+>
+<![CDATA[REGISTER sip:lintasbpn.com;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.6:37589;branch=z9hG4bK-524287-1---65b135b46d610d2f;rport=37589;received=110.136.107.220
+Max-Forwards: 70
+Contact: <sip:astri@192.168.0.6:37589;rinstance=cdb7208204af9023;transport=UDP>
+To: <sip:astri@lintasbpn.com;transport=UDP>
+From: <sip:astri@lintasbpn.com;transport=UDP>;tag=0c108024
+Call-ID: F-Bqo6fnmwf3dUGUkzzdWg..
+CSeq: 2 REGISTER
+Expires: 60
+Allow: INVITE,ACK,CANCEL,BYE,NOTIFY,REFER,MESSAGE,OPTIONS,INFO,SUBSCRIBE
+Proxy-Authorization: Digest username="astri",realm="lintasbpn.com",nonce="63383839363538612d393634302d343",uri="sip:lintasbpn.com;transport=UDP",response="711da82e10faa17ac3bca789ad1790bc",algorithm=MD5
+Supported: replaces,norefersub,extended-refer,timer,outbound,path,X-cisco-serviceuri
+User-Agent: Zoiper r35079
+Allow-Events: presence,kpml
+Content-Length: 0
+
+]]>
+</message>
+
+22:59:43,022 INFO  [org.mobicents.servlet.sip.core.dispatchers.InitialRequestDispatcher] (Restcomm-SIP-Servlets-UDPMessageChannelThread-476) Request event dispatched to RestComm
+22:59:43,025 INFO  [gov.nist.javax.sip.stack.SIPTransactionStack] (RestComm-akka.actor.default-dispatcher-3729) <message
+from="185.28.22.37:5080" 
+to="110.136.107.220:37589" 
+time="1457409583024"
+isSender="true" 
+transactionId="z9hg4bk-524287-1---65b135b46d610d2f" 
+callId="F-Bqo6fnmwf3dUGUkzzdWg.." 
+firstLine="SIP/2.0 407 Proxy Authentication required" 
+>
+<![CDATA[SIP/2.0 407 Proxy Authentication required
+To: <sip:astri@lintasbpn.com;transport=UDP>;tag=31223558_d9dada9f_57a5b08a_c44e964e
+Via: SIP/2.0/UDP 192.168.0.6:37589;branch=z9hG4bK-524287-1---65b135b46d610d2f;rport=37589;received=110.136.107.220
+CSeq: 2 REGISTER
+Call-ID: F-Bqo6fnmwf3dUGUkzzdWg..
+From: <sip:astri@lintasbpn.com;transport=UDP>;tag=0c108024
+Server: Restcomm 7.6.0.825
+Proxy-Authenticate: Digest realm="lintasbpn.com",nonce="64313536343164652d323162652d346"
+Content-Length: 0
+
+]]>
+</message>
+
+22:59:43,309 INFO  [gov.nist.javax.sip.stack.UDPMessageChannel] (Restcomm-SIP-Servlets-UDPMessageChannelThread-477) Setting SIPMessage peerPacketSource to: /110.136.107.220:37589
+22:59:43,310 INFO  [gov.nist.javax.sip.stack.SIPTransactionStack] (Restcomm-SIP-Servlets-UDPMessageChannelThread-477) <message
+from="110.136.107.220:37589" 
+to="185.28.22.37:5080" 
+time="1457409583308"
+isSender="false" 
+transactionId="z9hg4bk-524287-1---3f576f2899935c2a" 
+callId="F-Bqo6fnmwf3dUGUkzzdWg.." 
+firstLine="REGISTER sip:lintasbpn.com;transport=UDP SIP/2.0" 
+>
+<![CDATA[REGISTER sip:lintasbpn.com;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.6:37589;branch=z9hG4bK-524287-1---3f576f2899935c2a;rport=37589;received=110.136.107.220
+Max-Forwards: 70
+Contact: <sip:astri@192.168.0.6:37589;rinstance=cdb7208204af9023;transport=UDP>
+To: <sip:astri@lintasbpn.com;transport=UDP>
+From: <sip:astri@lintasbpn.com;transport=UDP>;tag=0c108024
+Call-ID: F-Bqo6fnmwf3dUGUkzzdWg..
+CSeq: 3 REGISTER
+Expires: 60
+Allow: INVITE,ACK,CANCEL,BYE,NOTIFY,REFER,MESSAGE,OPTIONS,INFO,SUBSCRIBE
+Proxy-Authorization: Digest username="astri",realm="lintasbpn.com",nonce="64313536343164652d323162652d346",uri="sip:lintasbpn.com;transport=UDP",response="bdf7601e72e8524cdf894282d7139485",algorithm=MD5
+Supported: replaces,norefersub,extended-refer,timer,outbound,path,X-cisco-serviceuri
+User-Agent: Zoiper r35079
+Allow-Events: presence,kpml
+Content-Length: 0
+
+]]>
+</message>
+
+22:59:43,311 INFO  [org.mobicents.servlet.sip.core.dispatchers.InitialRequestDispatcher] (Restcomm-SIP-Servlets-UDPMessageChannelThread-477) Request event dispatched to RestComm
+22:59:43,314 INFO  [gov.nist.javax.sip.stack.SIPTransactionStack] (RestComm-akka.actor.default-dispatcher-3729) <message
+from="185.28.22.37:5080" 
+to="110.136.107.220:37589" 
+time="1457409583313"
+isSender="true" 
+transactionId="z9hg4bk-524287-1---3f576f2899935c2a" 
+callId="F-Bqo6fnmwf3dUGUkzzdWg.." 
+firstLine="SIP/2.0 407 Proxy Authentication required" 
+>
+<![CDATA[SIP/2.0 407 Proxy Authentication required
+To: <sip:astri@lintasbpn.com;transport=UDP>;tag=18375231_d9dada9f_57a5b08a_5a888463
+Via: SIP/2.0/UDP 192.168.0.6:37589;branch=z9hG4bK-524287-1---3f576f2899935c2a;rport=37589;received=110.136.107.220
+CSeq: 3 REGISTER
+Call-ID: F-Bqo6fnmwf3dUGUkzzdWg..
+From: <sip:astri@lintasbpn.com;transport=UDP>;tag=0c108024
+Server: Restcomm 7.6.0.825
+Proxy-Authenticate: Digest realm="lintasbpn.com",nonce="33333639393139662d346632312d346"
+Content-Length: 0
+
+]]>
+</message>
+
+22:59:45,707 INFO  [gov.nist.javax.sip.stack.UDPMessageChannel] (Restcomm-SIP-Servlets-UDPMessageChannelThread-478) Setting SIPMessage peerPacketSource to: /110.136.107.220:37589
+22:59:45,708 INFO  [gov.nist.javax.sip.stack.SIPTransactionStack] (Restcomm-SIP-Servlets-UDPMessageChannelThread-478) <message
+from="110.136.107.220:37589" 
+to="185.28.22.37:5080" 
+time="1457409585706"
+isSender="false" 
+transactionId="z9hg4bk-524287-1---d877020da5e8b38d" 
+callId="eTrai-g2xqgEwjsKYwjaMQ.." 
+firstLine="REGISTER sip:lintasbpn.com;transport=UDP SIP/2.0" 
+>
+<![CDATA[REGISTER sip:lintasbpn.com;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.6:37589;branch=z9hG4bK-524287-1---d877020da5e8b38d;rport=37589;received=110.136.107.220
+Max-Forwards: 70
+Contact: <sip:astri@192.168.0.6:37589;rinstance=f2175fdc26d0462f;transport=UDP>
+To: <sip:astri@lintasbpn.com;transport=UDP>
+From: <sip:astri@lintasbpn.com;transport=UDP>;tag=e401571b
+Call-ID: eTrai-g2xqgEwjsKYwjaMQ..
+CSeq: 1 REGISTER
+Expires: 60
+Allow: INVITE,ACK,CANCEL,BYE,NOTIFY,REFER,MESSAGE,OPTIONS,INFO,SUBSCRIBE
+Supported: replaces,norefersub,extended-refer,timer,outbound,path,X-cisco-serviceuri
+User-Agent: Zoiper r35079
+Allow-Events: presence,kpml
+Content-Length: 0
+
+]]>
+</message>
+
+22:59:45,709 INFO  [org.mobicents.servlet.sip.core.dispatchers.InitialRequestDispatcher] (Restcomm-SIP-Servlets-UDPMessageChannelThread-478) Request event dispatched to RestComm
+22:59:45,710 INFO  [gov.nist.javax.sip.stack.SIPTransactionStack] (RestComm-akka.actor.default-dispatcher-3729) <message
+from="185.28.22.37:5080" 
+to="110.136.107.220:37589" 
+time="1457409585710"
+isSender="true" 
+transactionId="z9hg4bk-524287-1---d877020da5e8b38d" 
+callId="eTrai-g2xqgEwjsKYwjaMQ.." 
+firstLine="SIP/2.0 407 Proxy Authentication required" 
+>
+<![CDATA[SIP/2.0 407 Proxy Authentication required
+To: <sip:astri@lintasbpn.com;transport=UDP>;tag=15538144_d9dada9f_57a5b08a_48e82161
+Via: SIP/2.0/UDP 192.168.0.6:37589;branch=z9hG4bK-524287-1---d877020da5e8b38d;rport=37589;received=110.136.107.220
+CSeq: 1 REGISTER
+Call-ID: eTrai-g2xqgEwjsKYwjaMQ..
+From: <sip:astri@lintasbpn.com;transport=UDP>;tag=e401571b
+Server: Restcomm 7.6.0.825
+Proxy-Authenticate: Digest realm="lintasbpn.com",nonce="39656630323439622d373535392d343"
+Content-Length: 0
+
+]]>
+</message>
+
+22:59:46,037 INFO  [gov.nist.javax.sip.stack.UDPMessageChannel] (Restcomm-SIP-Servlets-UDPMessageChannelThread-435) Setting SIPMessage peerPacketSource to: /110.136.107.220:37589
+22:59:46,038 INFO  [gov.nist.javax.sip.stack.SIPTransactionStack] (Restcomm-SIP-Servlets-UDPMessageChannelThread-435) <message
+from="110.136.107.220:37589" 
+to="185.28.22.37:5080" 
+time="1457409586036"
+isSender="false" 
+transactionId="z9hg4bk-524287-1---92150018535d2db5" 
+callId="eTrai-g2xqgEwjsKYwjaMQ.." 
+firstLine="REGISTER sip:lintasbpn.com;transport=UDP SIP/2.0" 
+>
+<![CDATA[REGISTER sip:lintasbpn.com;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.6:37589;branch=z9hG4bK-524287-1---92150018535d2db5;rport=37589;received=110.136.107.220
+Max-Forwards: 70
+Contact: <sip:astri@192.168.0.6:37589;rinstance=f2175fdc26d0462f;transport=UDP>
+To: <sip:astri@lintasbpn.com;transport=UDP>
+From: <sip:astri@lintasbpn.com;transport=UDP>;tag=e401571b
+Call-ID: eTrai-g2xqgEwjsKYwjaMQ..
+CSeq: 2 REGISTER
+Expires: 60
+Allow: INVITE,ACK,CANCEL,BYE,NOTIFY,REFER,MESSAGE,OPTIONS,INFO,SUBSCRIBE
+Proxy-Authorization: Digest username="astri",realm="lintasbpn.com",nonce="39656630323439622d373535392d343",uri="sip:lintasbpn.com;transport=UDP",response="b98ad3498e0bf9cbc64c476746fbf603",algorithm=MD5
+Supported: replaces,norefersub,extended-refer,timer,outbound,path,X-cisco-serviceuri
+User-Agent: Zoiper r35079
+Allow-Events: presence,kpml
+Content-Length: 0
+
+]]>
+</message>
+
+22:59:46,039 INFO  [org.mobicents.servlet.sip.core.dispatchers.InitialRequestDispatcher] (Restcomm-SIP-Servlets-UDPMessageChannelThread-435) Request event dispatched to RestComm
+22:59:46,043 INFO  [gov.nist.javax.sip.stack.SIPTransactionStack] (RestComm-akka.actor.default-dispatcher-3729) <message
+from="185.28.22.37:5080" 
+to="110.136.107.220:37589" 
+time="1457409586042"
+isSender="true" 
+transactionId="z9hg4bk-524287-1---92150018535d2db5" 
+callId="eTrai-g2xqgEwjsKYwjaMQ.." 
+firstLine="SIP/2.0 407 Proxy Authentication required" 
+>
+<![CDATA[SIP/2.0 407 Proxy Authentication required
+To: <sip:astri@lintasbpn.com;transport=UDP>;tag=48402616_d9dada9f_57a5b08a_3799f8af
+Via: SIP/2.0/UDP 192.168.0.6:37589;branch=z9hG4bK-524287-1---92150018535d2db5;rport=37589;received=110.136.107.220
+CSeq: 2 REGISTER
+Call-ID: eTrai-g2xqgEwjsKYwjaMQ..
+From: <sip:astri@lintasbpn.com;transport=UDP>;tag=e401571b
+Server: Restcomm 7.6.0.825
+Proxy-Authenticate: Digest realm="lintasbpn.com",nonce="30643562643537342d616666662d343"
+Content-Length: 0
+
+]]>
+</message>
+
+22:59:46,317 INFO  [gov.nist.javax.sip.stack.UDPMessageChannel] (Restcomm-SIP-Servlets-UDPMessageChannelThread-480) Setting SIPMessage peerPacketSource to: /110.136.107.220:37589
+22:59:46,317 INFO  [gov.nist.javax.sip.stack.SIPTransactionStack] (Restcomm-SIP-Servlets-UDPMessageChannelThread-480) <message
+from="110.136.107.220:37589" 
+to="185.28.22.37:5080" 
+time="1457409586316"
+isSender="false" 
+transactionId="z9hg4bk-524287-1---6a725421b6e4bb47" 
+callId="eTrai-g2xqgEwjsKYwjaMQ.." 
+firstLine="REGISTER sip:lintasbpn.com;transport=UDP SIP/2.0" 
+>
+<![CDATA[REGISTER sip:lintasbpn.com;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.6:37589;branch=z9hG4bK-524287-1---6a725421b6e4bb47;rport=37589;received=110.136.107.220
+Max-Forwards: 70
+Contact: <sip:astri@192.168.0.6:37589;rinstance=f2175fdc26d0462f;transport=UDP>
+To: <sip:astri@lintasbpn.com;transport=UDP>
+From: <sip:astri@lintasbpn.com;transport=UDP>;tag=e401571b
+Call-ID: eTrai-g2xqgEwjsKYwjaMQ..
+CSeq: 3 REGISTER
+Expires: 60
+Allow: INVITE,ACK,CANCEL,BYE,NOTIFY,REFER,MESSAGE,OPTIONS,INFO,SUBSCRIBE
+Proxy-Authorization: Digest username="astri",realm="lintasbpn.com",nonce="30643562643537342d616666662d343",uri="sip:lintasbpn.com;transport=UDP",response="8af1d9ab2148a17c74f6a84c1da518ae",algorithm=MD5
+Supported: replaces,norefersub,extended-refer,timer,outbound,path,X-cisco-serviceuri
+User-Agent: Zoiper r35079
+Allow-Events: presence,kpml
+Content-Length: 0
+
+]]>
+</message>
+
+22:59:46,319 INFO  [org.mobicents.servlet.sip.core.dispatchers.InitialRequestDispatcher] (Restcomm-SIP-Servlets-UDPMessageChannelThread-480) Request event dispatched to RestComm
+22:59:46,322 INFO  [gov.nist.javax.sip.stack.SIPTransactionStack] (RestComm-akka.actor.default-dispatcher-3729) <message
+from="185.28.22.37:5080" 
+to="110.136.107.220:37589" 
+time="1457409586321"
+isSender="true" 
+transactionId="z9hg4bk-524287-1---6a725421b6e4bb47" 
+callId="eTrai-g2xqgEwjsKYwjaMQ.." 
+firstLine="SIP/2.0 407 Proxy Authentication required" 
+>
+<![CDATA[SIP/2.0 407 Proxy Authentication required
+To: <sip:astri@lintasbpn.com;transport=UDP>;tag=27609248_d9dada9f_57a5b08a_c80c18e2
+Via: SIP/2.0/UDP 192.168.0.6:37589;branch=z9hG4bK-524287-1---6a725421b6e4bb47;rport=37589;received=110.136.107.220
+CSeq: 3 REGISTER
+Call-ID: eTrai-g2xqgEwjsKYwjaMQ..
+From: <sip:astri@lintasbpn.com;transport=UDP>;tag=e401571b
+Server: Restcomm 7.6.0.825
+Proxy-Authenticate: Digest realm="lintasbpn.com",nonce="36653564363464332d333339642d343"
+Content-Length: 0
+
+]]>
+</message>
+
+23:02:42,723 INFO  [org.mobicents.servlet.sip.core.session.SipApplicationSessionImpl] (RestComm_sip_standard_sas_timer_service) Invalidating the following sip application session 880245b5;RestComm
+23:02:42,724 INFO  [org.mobicents.servlet.sip.core.session.SipSessionImpl] (RestComm_sip_standard_sas_timer_service) Invalidating the sip session (0c108024;F-Bqo6fnmwf3dUGUkzzdWg..;880245b5;RestComm)
+23:02:42,724 INFO  [org.mobicents.servlet.sip.core.session.SipApplicationSessionImpl] (RestComm_sip_standard_sas_timer_service) The following sip application session 880245b5;RestComm has been invalidated
+23:02:43,024 INFO  [org.mobicents.servlet.sip.core.session.SipApplicationSessionImpl] (RestComm_sip_standard_sas_timer_service) Invalidating the following sip application session c44e964e;RestComm
+23:02:43,025 INFO  [org.mobicents.servlet.sip.core.session.SipSessionImpl] (RestComm_sip_standard_sas_timer_service) Invalidating the sip session (0c108024;F-Bqo6fnmwf3dUGUkzzdWg..;c44e964e;RestComm)
+23:02:43,025 INFO  [org.mobicents.servlet.sip.core.session.SipApplicationSessionImpl] (RestComm_sip_standard_sas_timer_service) The following sip application session c44e964e;RestComm has been invalidated
+23:02:43,313 INFO  [org.mobicents.servlet.sip.core.session.SipApplicationSessionImpl] (RestComm_sip_standard_sas_timer_service) Invalidating the following sip application session 5a888463;RestComm
+23:02:43,314 INFO  [org.mobicents.servlet.sip.core.session.SipSessionImpl] (RestComm_sip_standard_sas_timer_service) Invalidating the sip session (0c108024;F-Bqo6fnmwf3dUGUkzzdWg..;5a888463;RestComm)
+23:02:43,314 INFO  [org.mobicents.servlet.sip.core.session.SipApplicationSessionImpl] (RestComm_sip_standard_sas_timer_service) The following sip application session 5a888463;RestComm has been invalidated
+23:02:45,709 INFO  [org.mobicents.servlet.sip.core.session.SipApplicationSessionImpl] (RestComm_sip_standard_sas_timer_service) Invalidating the following sip application session 48e82161;RestComm
+23:02:45,710 INFO  [org.mobicents.servlet.sip.core.session.SipSessionImpl] (RestComm_sip_standard_sas_timer_service) Invalidating the sip session (e401571b;eTrai-g2xqgEwjsKYwjaMQ..;48e82161;RestComm)
+23:02:45,710 INFO  [org.mobicents.servlet.sip.core.session.SipApplicationSessionImpl] (RestComm_sip_standard_sas_timer_service) The following sip application session 48e82161;RestComm has been invalidated
+23:02:46,042 INFO  [org.mobicents.servlet.sip.core.session.SipApplicationSessionImpl] (RestComm_sip_standard_sas_timer_service) Invalidating the following sip application session 3799f8af;RestComm
+23:02:46,043 INFO  [org.mobicents.servlet.sip.core.session.SipSessionImpl] (RestComm_sip_standard_sas_timer_service) Invalidating the sip session (e401571b;eTrai-g2xqgEwjsKYwjaMQ..;3799f8af;RestComm)
+23:02:46,043 INFO  [org.mobicents.servlet.sip.core.session.SipApplicationSessionImpl] (RestComm_sip_standard_sas_timer_service) The following sip application session 3799f8af;RestComm has been invalidated
+23:02:46,321 INFO  [org.mobicents.servlet.sip.core.session.SipApplicationSessionImpl] (RestComm_sip_standard_sas_timer_service) Invalidating the following sip application session c80c18e2;RestComm
+23:02:46,322 INFO  [org.mobicents.servlet.sip.core.session.SipSessionImpl] (RestComm_sip_standard_sas_timer_service) Invalidating the sip session (e401571b;eTrai-g2xqgEwjsKYwjaMQ..;c80c18e2;RestComm)
+23:02:46,322 INFO  [org.mobicents.servlet.sip.core.session.SipApplicationSessionImpl] (RestComm_sip_standard_sas_timer_service) The following sip application session c80c18e2;RestComm has been invalidated
+01:13:02,598 INFO  [gov.nist.javax.sip.stack.UDPMessageChannel] (Restcomm-SIP-Servlets-UDPMessageChannelThread-481) Setting SIPMessage peerPacketSource to: /110.136.107.220:34152
+01:13:02,599 INFO  [gov.nist.javax.sip.stack.SIPTransactionStack] (Restcomm-SIP-Servlets-UDPMessageChannelThread-481) <message
+from="110.136.107.220:34152" 
+to="185.28.22.37:5080" 
+time="1457417582597"
+isSender="false" 
+transactionId="z9hg4bk-524287-1---0c81fbe8a4dfc359" 
+callId="3dEopGiKygSnw7wOgVp04g.." 
+firstLine="REGISTER sip:lintasbpn.com;transport=UDP SIP/2.0" 
+>
+<![CDATA[REGISTER sip:lintasbpn.com;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.6:34152;branch=z9hG4bK-524287-1---0c81fbe8a4dfc359;rport=34152;received=110.136.107.220
+Max-Forwards: 70
+Contact: <sip:astri@192.168.0.6:34152;rinstance=345f2ccc433b9a80;transport=UDP>
+To: <sip:astri@lintasbpn.com;transport=UDP>
+From: <sip:astri@lintasbpn.com;transport=UDP>;tag=481c762e
+Call-ID: 3dEopGiKygSnw7wOgVp04g..
+CSeq: 1 REGISTER
+Expires: 60
+Allow: INVITE,ACK,CANCEL,BYE,NOTIFY,REFER,MESSAGE,OPTIONS,INFO,SUBSCRIBE
+Supported: replaces,norefersub,extended-refer,timer,outbound,path,X-cisco-serviceuri
+User-Agent: Zoiper r35079
+Allow-Events: presence,kpml
+Content-Length: 0
+
+]]>
+</message>
+
+01:13:02,602 INFO  [org.mobicents.servlet.sip.core.dispatchers.InitialRequestDispatcher] (Restcomm-SIP-Servlets-UDPMessageChannelThread-481) Request event dispatched to RestComm
+01:13:02,603 INFO  [gov.nist.javax.sip.stack.SIPTransactionStack] (RestComm-akka.actor.default-dispatcher-3992) <message
+from="185.28.22.37:5080" 
+to="110.136.107.220:34152" 
+time="1457417582603"
+isSender="true" 
+transactionId="z9hg4bk-524287-1---0c81fbe8a4dfc359" 
+callId="3dEopGiKygSnw7wOgVp04g.." 
+firstLine="SIP/2.0 407 Proxy Authentication required" 
+>
+<![CDATA[SIP/2.0 407 Proxy Authentication required
+To: <sip:astri@lintasbpn.com;transport=UDP>;tag=08785443_d9dada9f_57a5b08a_89ad2bbe
+Via: SIP/2.0/UDP 192.168.0.6:34152;branch=z9hG4bK-524287-1---0c81fbe8a4dfc359;rport=34152;received=110.136.107.220
+CSeq: 1 REGISTER
+Call-ID: 3dEopGiKygSnw7wOgVp04g..
+From: <sip:astri@lintasbpn.com;transport=UDP>;tag=481c762e
+Server: Restcomm 7.6.0.825
+Proxy-Authenticate: Digest realm="lintasbpn.com",nonce="33386331303964612d613964382d343"
+Content-Length: 0
+
+]]>
+</message>
+
+01:13:02,943 INFO  [gov.nist.javax.sip.stack.UDPMessageChannel] (Restcomm-SIP-Servlets-UDPMessageChannelThread-482) Setting SIPMessage peerPacketSource to: /110.136.107.220:34152
+01:13:02,944 INFO  [gov.nist.javax.sip.stack.SIPTransactionStack] (Restcomm-SIP-Servlets-UDPMessageChannelThread-482) <message
+from="110.136.107.220:34152" 
+to="185.28.22.37:5080" 
+time="1457417582942"
+isSender="false" 
+transactionId="z9hg4bk-524287-1---0c81fbe8a4dfc359" 
+callId="3dEopGiKygSnw7wOgVp04g.." 
+firstLine="REGISTER sip:lintasbpn.com;transport=UDP SIP/2.0" 
+>
+<![CDATA[REGISTER sip:lintasbpn.com;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.6:34152;branch=z9hG4bK-524287-1---0c81fbe8a4dfc359;rport=34152;received=110.136.107.220
+Max-Forwards: 70
+Contact: <sip:astri@192.168.0.6:34152;rinstance=345f2ccc433b9a80;transport=UDP>
+To: <sip:astri@lintasbpn.com;transport=UDP>
+From: <sip:astri@lintasbpn.com;transport=UDP>;tag=481c762e
+Call-ID: 3dEopGiKygSnw7wOgVp04g..
+CSeq: 1 REGISTER
+Expires: 60
+Allow: INVITE,ACK,CANCEL,BYE,NOTIFY,REFER,MESSAGE,OPTIONS,INFO,SUBSCRIBE
+Supported: replaces,norefersub,extended-refer,timer,outbound,path,X-cisco-serviceuri
+User-Agent: Zoiper r35079
+Allow-Events: presence,kpml
+Content-Length: 0
+
+]]>
+</message>
+
+01:13:02,946 INFO  [gov.nist.javax.sip.stack.SIPTransactionStack] (Restcomm-SIP-Servlets-UDPMessageChannelThread-482) <message
+from="185.28.22.37:5080" 
+to="110.136.107.220:34152" 
+time="1457417582946"
+isSender="true" 
+transactionId="z9hg4bk-524287-1---0c81fbe8a4dfc359" 
+callId="3dEopGiKygSnw7wOgVp04g.." 
+firstLine="SIP/2.0 407 Proxy Authentication required" 
+>
+<![CDATA[SIP/2.0 407 Proxy Authentication required
+To: <sip:astri@lintasbpn.com;transport=UDP>;tag=08785443_d9dada9f_57a5b08a_89ad2bbe
+Via: SIP/2.0/UDP 192.168.0.6:34152;branch=z9hG4bK-524287-1---0c81fbe8a4dfc359;rport=34152;received=110.136.107.220
+CSeq: 1 REGISTER
+Call-ID: 3dEopGiKygSnw7wOgVp04g..
+From: <sip:astri@lintasbpn.com;transport=UDP>;tag=481c762e
+Server: Restcomm 7.6.0.825
+Proxy-Authenticate: Digest realm="lintasbpn.com",nonce="33386331303964612d613964382d343"
+Content-Length: 0
+
+]]>
+</message>
+
+01:13:02,967 INFO  [gov.nist.javax.sip.stack.UDPMessageChannel] (Restcomm-SIP-Servlets-UDPMessageChannelThread-483) Setting SIPMessage peerPacketSource to: /110.136.107.220:34152
+01:13:02,968 INFO  [gov.nist.javax.sip.stack.SIPTransactionStack] (Restcomm-SIP-Servlets-UDPMessageChannelThread-483) <message
+from="110.136.107.220:34152" 
+to="185.28.22.37:5080" 
+time="1457417582966"
+isSender="false" 
+transactionId="z9hg4bk-524287-1---552ae5ea55deb8ad" 
+callId="3dEopGiKygSnw7wOgVp04g.." 
+firstLine="REGISTER sip:lintasbpn.com;transport=UDP SIP/2.0" 
+>
+<![CDATA[REGISTER sip:lintasbpn.com;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.6:34152;branch=z9hG4bK-524287-1---552ae5ea55deb8ad;rport=34152;received=110.136.107.220
+Max-Forwards: 70
+Contact: <sip:astri@192.168.0.6:34152;rinstance=345f2ccc433b9a80;transport=UDP>
+To: <sip:astri@lintasbpn.com;transport=UDP>
+From: <sip:astri@lintasbpn.com;transport=UDP>;tag=481c762e
+Call-ID: 3dEopGiKygSnw7wOgVp04g..
+CSeq: 2 REGISTER
+Expires: 60
+Allow: INVITE,ACK,CANCEL,BYE,NOTIFY,REFER,MESSAGE,OPTIONS,INFO,SUBSCRIBE
+Proxy-Authorization: Digest username="astri",realm="lintasbpn.com",nonce="33386331303964612d613964382d343",uri="sip:lintasbpn.com;transport=UDP",response="10a6f2ecdaaeed25706067c41a1fa7cd",algorithm=MD5
+Supported: replaces,norefersub,extended-refer,timer,outbound,path,X-cisco-serviceuri
+User-Agent: Zoiper r35079
+Allow-Events: presence,kpml
+Content-Length: 0
+
+]]>
+</message>
+
+01:13:02,969 INFO  [org.mobicents.servlet.sip.core.dispatchers.InitialRequestDispatcher] (Restcomm-SIP-Servlets-UDPMessageChannelThread-483) Request event dispatched to RestComm
+01:13:02,972 INFO  [gov.nist.javax.sip.stack.SIPTransactionStack] (RestComm-akka.actor.default-dispatcher-3992) <message
+from="185.28.22.37:5080" 
+to="110.136.107.220:34152" 
+time="1457417582971"
+isSender="true" 
+transactionId="z9hg4bk-524287-1---552ae5ea55deb8ad" 
+callId="3dEopGiKygSnw7wOgVp04g.." 
+firstLine="SIP/2.0 407 Proxy Authentication required" 
+>
+<![CDATA[SIP/2.0 407 Proxy Authentication required
+To: <sip:astri@lintasbpn.com;transport=UDP>;tag=77331718_d9dada9f_57a5b08a_ccd10964
+Via: SIP/2.0/UDP 192.168.0.6:34152;branch=z9hG4bK-524287-1---552ae5ea55deb8ad;rport=34152;received=110.136.107.220
+CSeq: 2 REGISTER
+Call-ID: 3dEopGiKygSnw7wOgVp04g..
+From: <sip:astri@lintasbpn.com;transport=UDP>;tag=481c762e
+Server: Restcomm 7.6.0.825
+Proxy-Authenticate: Digest realm="lintasbpn.com",nonce="34323164666334392d653035342d343"
+Content-Length: 0
+
+]]>
+</message>
+
+01:13:03,246 INFO  [gov.nist.javax.sip.stack.UDPMessageChannel] (Restcomm-SIP-Servlets-UDPMessageChannelThread-484) Setting SIPMessage peerPacketSource to: /110.136.107.220:34152
+01:13:03,247 INFO  [gov.nist.javax.sip.stack.SIPTransactionStack] (Restcomm-SIP-Servlets-UDPMessageChannelThread-484) <message
+from="110.136.107.220:34152" 
+to="185.28.22.37:5080" 
+time="1457417583245"
+isSender="false" 
+transactionId="z9hg4bk-524287-1---70aa8ce0b348b828" 
+callId="3dEopGiKygSnw7wOgVp04g.." 
+firstLine="REGISTER sip:lintasbpn.com;transport=UDP SIP/2.0" 
+>
+<![CDATA[REGISTER sip:lintasbpn.com;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.6:34152;branch=z9hG4bK-524287-1---70aa8ce0b348b828;rport=34152;received=110.136.107.220
+Max-Forwards: 70
+Contact: <sip:astri@192.168.0.6:34152;rinstance=345f2ccc433b9a80;transport=UDP>
+To: <sip:astri@lintasbpn.com;transport=UDP>
+From: <sip:astri@lintasbpn.com;transport=UDP>;tag=481c762e
+Call-ID: 3dEopGiKygSnw7wOgVp04g..
+CSeq: 3 REGISTER
+Expires: 60
+Allow: INVITE,ACK,CANCEL,BYE,NOTIFY,REFER,MESSAGE,OPTIONS,INFO,SUBSCRIBE
+Proxy-Authorization: Digest username="astri",realm="lintasbpn.com",nonce="34323164666334392d653035342d343",uri="sip:lintasbpn.com;transport=UDP",response="d9f5e68f6040f2a5594eb4f870984b7e",algorithm=MD5
+Supported: replaces,norefersub,extended-refer,timer,outbound,path,X-cisco-serviceuri
+User-Agent: Zoiper r35079
+Allow-Events: presence,kpml
+Content-Length: 0
+
+]]>
+</message>
+
+01:13:03,248 INFO  [org.mobicents.servlet.sip.core.dispatchers.InitialRequestDispatcher] (Restcomm-SIP-Servlets-UDPMessageChannelThread-484) Request event dispatched to RestComm
+01:13:03,250 INFO  [gov.nist.javax.sip.stack.SIPTransactionStack] (RestComm-akka.actor.default-dispatcher-3992) <message
+from="185.28.22.37:5080" 
+to="110.136.107.220:34152" 
+time="1457417583250"
+isSender="true" 
+transactionId="z9hg4bk-524287-1---70aa8ce0b348b828" 
+callId="3dEopGiKygSnw7wOgVp04g.." 
+firstLine="SIP/2.0 407 Proxy Authentication required" 
+>
+<![CDATA[SIP/2.0 407 Proxy Authentication required
+To: <sip:astri@lintasbpn.com;transport=UDP>;tag=54531877_d9dada9f_57a5b08a_c340d30f
+Via: SIP/2.0/UDP 192.168.0.6:34152;branch=z9hG4bK-524287-1---70aa8ce0b348b828;rport=34152;received=110.136.107.220
+CSeq: 3 REGISTER
+Call-ID: 3dEopGiKygSnw7wOgVp04g..
+From: <sip:astri@lintasbpn.com;transport=UDP>;tag=481c762e
+Server: Restcomm 7.6.0.825
+Proxy-Authenticate: Digest realm="lintasbpn.com",nonce="36326233613838652d396633342d343"
+Content-Length: 0
+
+]]>
+</message>
+
+01:13:20,135 INFO  [gov.nist.javax.sip.stack.UDPMessageChannel] (Restcomm-SIP-Servlets-UDPMessageChannelThread-485) Setting SIPMessage peerPacketSource to: /110.136.107.220:34152
+01:13:20,136 INFO  [gov.nist.javax.sip.stack.SIPTransactionStack] (Restcomm-SIP-Servlets-UDPMessageChannelThread-485) <message
+from="110.136.107.220:34152" 
+to="185.28.22.37:5080" 
+time="1457417600134"
+isSender="false" 
+transactionId="z9hg4bk-524287-1---012a0e9249f87e77" 
+callId="5VmV1OuZUVtxFDzvQnoIWw.." 
+firstLine="REGISTER sip:lintasbpn.com;transport=UDP SIP/2.0" 
+>
+<![CDATA[REGISTER sip:lintasbpn.com;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.6:34152;branch=z9hG4bK-524287-1---012a0e9249f87e77;rport=34152;received=110.136.107.220
+Max-Forwards: 70
+Contact: <sip:astri@192.168.0.6:34152;rinstance=54f5ae94a95b4e38;transport=UDP>
+To: <sip:astri@lintasbpn.com;transport=UDP>
+From: <sip:astri@lintasbpn.com;transport=UDP>;tag=c6d84b76
+Call-ID: 5VmV1OuZUVtxFDzvQnoIWw..
+CSeq: 1 REGISTER
+Expires: 60
+Allow: INVITE,ACK,CANCEL,BYE,NOTIFY,REFER,MESSAGE,OPTIONS,INFO,SUBSCRIBE
+Supported: replaces,norefersub,extended-refer,timer,outbound,path,X-cisco-serviceuri
+User-Agent: Zoiper r35079
+Allow-Events: presence,kpml
+Content-Length: 0
+
+]]>
+</message>
+
+01:13:20,137 INFO  [org.mobicents.servlet.sip.core.dispatchers.InitialRequestDispatcher] (Restcomm-SIP-Servlets-UDPMessageChannelThread-485) Request event dispatched to RestComm
+01:13:20,138 INFO  [gov.nist.javax.sip.stack.SIPTransactionStack] (RestComm-akka.actor.default-dispatcher-3995) <message
+from="185.28.22.37:5080" 
+to="110.136.107.220:34152" 
+time="1457417600138"
+isSender="true" 
+transactionId="z9hg4bk-524287-1---012a0e9249f87e77" 
+callId="5VmV1OuZUVtxFDzvQnoIWw.." 
+firstLine="SIP/2.0 407 Proxy Authentication required" 
+>
+<![CDATA[SIP/2.0 407 Proxy Authentication required
+To: <sip:astri@lintasbpn.com;transport=UDP>;tag=43320788_d9dada9f_57a5b08a_e646e489
+Via: SIP/2.0/UDP 192.168.0.6:34152;branch=z9hG4bK-524287-1---012a0e9249f87e77;rport=34152;received=110.136.107.220
+CSeq: 1 REGISTER
+Call-ID: 5VmV1OuZUVtxFDzvQnoIWw..
+From: <sip:astri@lintasbpn.com;transport=UDP>;tag=c6d84b76
+Server: Restcomm 7.6.0.825
+Proxy-Authenticate: Digest realm="lintasbpn.com",nonce="62623661373463622d616364642d346"
+Content-Length: 0
+
+]]>
+</message>
+
+01:13:20,415 INFO  [gov.nist.javax.sip.stack.UDPMessageChannel] (Restcomm-SIP-Servlets-UDPMessageChannelThread-479) Setting SIPMessage peerPacketSource to: /110.136.107.220:34152
+01:13:20,416 INFO  [gov.nist.javax.sip.stack.SIPTransactionStack] (Restcomm-SIP-Servlets-UDPMessageChannelThread-479) <message
+from="110.136.107.220:34152" 
+to="185.28.22.37:5080" 
+time="1457417600414"
+isSender="false" 
+transactionId="z9hg4bk-524287-1---e87bb22dab167a1b" 
+callId="5VmV1OuZUVtxFDzvQnoIWw.." 
+firstLine="REGISTER sip:lintasbpn.com;transport=UDP SIP/2.0" 
+>
+<![CDATA[REGISTER sip:lintasbpn.com;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.6:34152;branch=z9hG4bK-524287-1---e87bb22dab167a1b;rport=34152;received=110.136.107.220
+Max-Forwards: 70
+Contact: <sip:astri@192.168.0.6:34152;rinstance=54f5ae94a95b4e38;transport=UDP>
+To: <sip:astri@lintasbpn.com;transport=UDP>
+From: <sip:astri@lintasbpn.com;transport=UDP>;tag=c6d84b76
+Call-ID: 5VmV1OuZUVtxFDzvQnoIWw..
+CSeq: 2 REGISTER
+Expires: 60
+Allow: INVITE,ACK,CANCEL,BYE,NOTIFY,REFER,MESSAGE,OPTIONS,INFO,SUBSCRIBE
+Proxy-Authorization: Digest username="astri",realm="lintasbpn.com",nonce="62623661373463622d616364642d346",uri="sip:lintasbpn.com;transport=UDP",response="cd7ec6f15f5ca51e00abfffd0a27a0b0",algorithm=MD5
+Supported: replaces,norefersub,extended-refer,timer,outbound,path,X-cisco-serviceuri
+User-Agent: Zoiper r35079
+Allow-Events: presence,kpml
+Content-Length: 0
+
+]]>
+</message>
+
+01:13:20,418 INFO  [org.mobicents.servlet.sip.core.dispatchers.InitialRequestDispatcher] (Restcomm-SIP-Servlets-UDPMessageChannelThread-479) Request event dispatched to RestComm
+01:13:20,423 INFO  [gov.nist.javax.sip.stack.SIPTransactionStack] (RestComm-akka.actor.default-dispatcher-3995) <message
+from="185.28.22.37:5080" 
+to="110.136.107.220:34152" 
+time="1457417600422"
+isSender="true" 
+transactionId="z9hg4bk-524287-1---e87bb22dab167a1b" 
+callId="5VmV1OuZUVtxFDzvQnoIWw.." 
+firstLine="SIP/2.0 407 Proxy Authentication required" 
+>
+<![CDATA[SIP/2.0 407 Proxy Authentication required
+To: <sip:astri@lintasbpn.com;transport=UDP>;tag=27807503_d9dada9f_57a5b08a_0414ed9c
+Via: SIP/2.0/UDP 192.168.0.6:34152;branch=z9hG4bK-524287-1---e87bb22dab167a1b;rport=34152;received=110.136.107.220
+CSeq: 2 REGISTER
+Call-ID: 5VmV1OuZUVtxFDzvQnoIWw..
+From: <sip:astri@lintasbpn.com;transport=UDP>;tag=c6d84b76
+Server: Restcomm 7.6.0.825
+Proxy-Authenticate: Digest realm="lintasbpn.com",nonce="33336232623032392d313165312d343"
+Content-Length: 0
+
+]]>
+</message>
+
+01:13:20,723 INFO  [gov.nist.javax.sip.stack.UDPMessageChannel] (Restcomm-SIP-Servlets-UDPMessageChannelThread-486) Setting SIPMessage peerPacketSource to: /110.136.107.220:34152
+01:13:20,724 INFO  [gov.nist.javax.sip.stack.SIPTransactionStack] (Restcomm-SIP-Servlets-UDPMessageChannelThread-486) <message
+from="110.136.107.220:34152" 
+to="185.28.22.37:5080" 
+time="1457417600722"
+isSender="false" 
+transactionId="z9hg4bk-524287-1---f4395f07f9cdbc42" 
+callId="5VmV1OuZUVtxFDzvQnoIWw.." 
+firstLine="REGISTER sip:lintasbpn.com;transport=UDP SIP/2.0" 
+>
+<![CDATA[REGISTER sip:lintasbpn.com;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.6:34152;branch=z9hG4bK-524287-1---f4395f07f9cdbc42;rport=34152;received=110.136.107.220
+Max-Forwards: 70
+Contact: <sip:astri@192.168.0.6:34152;rinstance=54f5ae94a95b4e38;transport=UDP>
+To: <sip:astri@lintasbpn.com;transport=UDP>
+From: <sip:astri@lintasbpn.com;transport=UDP>;tag=c6d84b76
+Call-ID: 5VmV1OuZUVtxFDzvQnoIWw..
+CSeq: 3 REGISTER
+Expires: 60
+Allow: INVITE,ACK,CANCEL,BYE,NOTIFY,REFER,MESSAGE,OPTIONS,INFO,SUBSCRIBE
+Proxy-Authorization: Digest username="astri",realm="lintasbpn.com",nonce="33336232623032392d313165312d343",uri="sip:lintasbpn.com;transport=UDP",response="6083d74206ff865711a0339073861f5f",algorithm=MD5
+Supported: replaces,norefersub,extended-refer,timer,outbound,path,X-cisco-serviceuri
+User-Agent: Zoiper r35079
+Allow-Events: presence,kpml
+Content-Length: 0
+
+]]>
+</message>
+
+01:13:20,726 INFO  [org.mobicents.servlet.sip.core.dispatchers.InitialRequestDispatcher] (Restcomm-SIP-Servlets-UDPMessageChannelThread-486) Request event dispatched to RestComm
+01:13:20,729 INFO  [gov.nist.javax.sip.stack.SIPTransactionStack] (RestComm-akka.actor.default-dispatcher-3995) <message
+from="185.28.22.37:5080" 
+to="110.136.107.220:34152" 
+time="1457417600728"
+isSender="true" 
+transactionId="z9hg4bk-524287-1---f4395f07f9cdbc42" 
+callId="5VmV1OuZUVtxFDzvQnoIWw.." 
+firstLine="SIP/2.0 407 Proxy Authentication required" 
+>
+<![CDATA[SIP/2.0 407 Proxy Authentication required
+To: <sip:astri@lintasbpn.com;transport=UDP>;tag=34941934_d9dada9f_57a5b08a_0e1017d4
+Via: SIP/2.0/UDP 192.168.0.6:34152;branch=z9hG4bK-524287-1---f4395f07f9cdbc42;rport=34152;received=110.136.107.220
+CSeq: 3 REGISTER
+Call-ID: 5VmV1OuZUVtxFDzvQnoIWw..
+From: <sip:astri@lintasbpn.com;transport=UDP>;tag=c6d84b76
+Server: Restcomm 7.6.0.825
+Proxy-Authenticate: Digest realm="lintasbpn.com",nonce="64343433353630622d383931632d346"
+Content-Length: 0
+
+]]>
+</message>
+
+01:16:02,603 INFO  [org.mobicents.servlet.sip.core.session.SipApplicationSessionImpl] (RestComm_sip_standard_sas_timer_service) Invalidating the following sip application session 89ad2bbe;RestComm
+01:16:02,603 INFO  [org.mobicents.servlet.sip.core.session.SipSessionImpl] (RestComm_sip_standard_sas_timer_service) Invalidating the sip session (481c762e;3dEopGiKygSnw7wOgVp04g..;89ad2bbe;RestComm)
+01:16:02,603 INFO  [org.mobicents.servlet.sip.core.session.SipApplicationSessionImpl] (RestComm_sip_standard_sas_timer_service) The following sip application session 89ad2bbe;RestComm has been invalidated
+01:16:02,972 INFO  [org.mobicents.servlet.sip.core.session.SipApplicationSessionImpl] (RestComm_sip_standard_sas_timer_service) Invalidating the following sip application session ccd10964;RestComm
+01:16:02,972 INFO  [org.mobicents.servlet.sip.core.session.SipSessionImpl] (RestComm_sip_standard_sas_timer_service) Invalidating the sip session (481c762e;3dEopGiKygSnw7wOgVp04g..;ccd10964;RestComm)
+01:16:02,972 INFO  [org.mobicents.servlet.sip.core.session.SipApplicationSessionImpl] (RestComm_sip_standard_sas_timer_service) The following sip application session ccd10964;RestComm has been invalidated
+01:16:03,249 INFO  [org.mobicents.servlet.sip.core.session.SipApplicationSessionImpl] (RestComm_sip_standard_sas_timer_service) Invalidating the following sip application session c340d30f;RestComm
+01:16:03,249 INFO  [org.mobicents.servlet.sip.core.session.SipSessionImpl] (RestComm_sip_standard_sas_timer_service) Invalidating the sip session (481c762e;3dEopGiKygSnw7wOgVp04g..;c340d30f;RestComm)
+01:16:03,249 INFO  [org.mobicents.servlet.sip.core.session.SipApplicationSessionImpl] (RestComm_sip_standard_sas_timer_service) The following sip application session c340d30f;RestComm has been invalidated
+01:16:20,138 INFO  [org.mobicents.servlet.sip.core.session.SipApplicationSessionImpl] (RestComm_sip_standard_sas_timer_service) Invalidating the following sip application session e646e489;RestComm
+01:16:20,138 INFO  [org.mobicents.servlet.sip.core.session.SipSessionImpl] (RestComm_sip_standard_sas_timer_service) Invalidating the sip session (c6d84b76;5VmV1OuZUVtxFDzvQnoIWw..;e646e489;RestComm)
+01:16:20,138 INFO  [org.mobicents.servlet.sip.core.session.SipApplicationSessionImpl] (RestComm_sip_standard_sas_timer_service) The following sip application session e646e489;RestComm has been invalidated
+01:16:20,422 INFO  [org.mobicents.servlet.sip.core.session.SipApplicationSessionImpl] (RestComm_sip_standard_sas_timer_service) Invalidating the following sip application session 0414ed9c;RestComm
+01:16:20,422 INFO  [org.mobicents.servlet.sip.core.session.SipSessionImpl] (RestComm_sip_standard_sas_timer_service) Invalidating the sip session (c6d84b76;5VmV1OuZUVtxFDzvQnoIWw..;0414ed9c;RestComm)
+01:16:20,422 INFO  [org.mobicents.servlet.sip.core.session.SipApplicationSessionImpl] (RestComm_sip_standard_sas_timer_service) The following sip application session 0414ed9c;RestComm has been invalidated
+01:16:20,728 INFO  [org.mobicents.servlet.sip.core.session.SipApplicationSessionImpl] (RestComm_sip_standard_sas_timer_service) Invalidating the following sip application session 0e1017d4;RestComm
+01:16:20,728 INFO  [org.mobicents.servlet.sip.core.session.SipSessionImpl] (RestComm_sip_standard_sas_timer_service) Invalidating the sip session (c6d84b76;5VmV1OuZUVtxFDzvQnoIWw..;0e1017d4;RestComm)
+01:16:20,728 INFO  [org.mobicents.servlet.sip.core.session.SipApplicationSessionImpl] (RestComm_sip_standard_sas_timer_service) The following sip application session 0e1017d4;RestComm has been invalidated
+06:21:21,236 INFO  [gov.nist.javax.sip.stack.UDPMessageChannel] (Restcomm-SIP-Servlets-UDPMessageChannelThread-487) Setting SIPMessage peerPacketSource to: /110.136.107.220:37606
+06:21:21,237 INFO  [gov.nist.javax.sip.stack.SIPTransactionStack] (Restcomm-SIP-Servlets-UDPMessageChannelThread-487) <message
+from="110.136.107.220:37606" 
+to="185.28.22.37:5080" 
+time="1457436081235"
+isSender="false" 
+transactionId="z9hg4bk-524287-1---37b8119e34590a9d" 
+callId="cgt5bExVFIDpjm-rvG5NzQ.." 
+firstLine="REGISTER sip:lintasbpn.com;transport=UDP SIP/2.0" 
+>
+<![CDATA[REGISTER sip:lintasbpn.com;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.6:37606;branch=z9hG4bK-524287-1---37b8119e34590a9d;rport=37606;received=110.136.107.220
+Max-Forwards: 70
+Contact: <sip:astri@192.168.0.6:37606;rinstance=81066df6e5945927;transport=UDP>
+To: <sip:astri@lintasbpn.com;transport=UDP>
+From: <sip:astri@lintasbpn.com;transport=UDP>;tag=f4105748
+Call-ID: cgt5bExVFIDpjm-rvG5NzQ..
+CSeq: 1 REGISTER
+Expires: 60
+Allow: INVITE,ACK,CANCEL,BYE,NOTIFY,REFER,MESSAGE,OPTIONS,INFO,SUBSCRIBE
+Supported: replaces,norefersub,extended-refer,timer,outbound,path,X-cisco-serviceuri
+User-Agent: Zoiper r35079
+Allow-Events: presence,kpml
+Content-Length: 0
+
+]]>
+</message>
+
+06:21:21,238 INFO  [org.mobicents.servlet.sip.core.dispatchers.InitialRequestDispatcher] (Restcomm-SIP-Servlets-UDPMessageChannelThread-487) Request event dispatched to RestComm
+06:21:21,239 INFO  [gov.nist.javax.sip.stack.SIPTransactionStack] (RestComm-akka.actor.default-dispatcher-4610) <message
+from="185.28.22.37:5080" 
+to="110.136.107.220:37606" 
+time="1457436081238"
+isSender="true" 
+transactionId="z9hg4bk-524287-1---37b8119e34590a9d" 
+callId="cgt5bExVFIDpjm-rvG5NzQ.." 
+firstLine="SIP/2.0 407 Proxy Authentication required" 
+>
+<![CDATA[SIP/2.0 407 Proxy Authentication required
+To: <sip:astri@lintasbpn.com;transport=UDP>;tag=45477413_d9dada9f_57a5b08a_f0a77ff8
+Via: SIP/2.0/UDP 192.168.0.6:37606;branch=z9hG4bK-524287-1---37b8119e34590a9d;rport=37606;received=110.136.107.220
+CSeq: 1 REGISTER
+Call-ID: cgt5bExVFIDpjm-rvG5NzQ..
+From: <sip:astri@lintasbpn.com;transport=UDP>;tag=f4105748
+Server: Restcomm 7.6.0.825
+Proxy-Authenticate: Digest realm="lintasbpn.com",nonce="62336239373331612d646265302d343"
+Content-Length: 0
+
+]]>
+</message>
+
+06:21:21,506 INFO  [gov.nist.javax.sip.stack.UDPMessageChannel] (Restcomm-SIP-Servlets-UDPMessageChannelThread-488) Setting SIPMessage peerPacketSource to: /110.136.107.220:37606
+06:21:21,507 INFO  [gov.nist.javax.sip.stack.SIPTransactionStack] (Restcomm-SIP-Servlets-UDPMessageChannelThread-488) <message
+from="110.136.107.220:37606" 
+to="185.28.22.37:5080" 
+time="1457436081505"
+isSender="false" 
+transactionId="z9hg4bk-524287-1---13522c4a30318b31" 
+callId="cgt5bExVFIDpjm-rvG5NzQ.." 
+firstLine="REGISTER sip:lintasbpn.com;transport=UDP SIP/2.0" 
+>
+<![CDATA[REGISTER sip:lintasbpn.com;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.6:37606;branch=z9hG4bK-524287-1---13522c4a30318b31;rport=37606;received=110.136.107.220
+Max-Forwards: 70
+Contact: <sip:astri@192.168.0.6:37606;rinstance=81066df6e5945927;transport=UDP>
+To: <sip:astri@lintasbpn.com;transport=UDP>
+From: <sip:astri@lintasbpn.com;transport=UDP>;tag=f4105748
+Call-ID: cgt5bExVFIDpjm-rvG5NzQ..
+CSeq: 2 REGISTER
+Expires: 60
+Allow: INVITE,ACK,CANCEL,BYE,NOTIFY,REFER,MESSAGE,OPTIONS,INFO,SUBSCRIBE
+Proxy-Authorization: Digest username="astri",realm="lintasbpn.com",nonce="62336239373331612d646265302d343",uri="sip:lintasbpn.com;transport=UDP",response="cd946bc0daa4ee4aae1ef25d6d7b7666",algorithm=MD5
+Supported: replaces,norefersub,extended-refer,timer,outbound,path,X-cisco-serviceuri
+User-Agent: Zoiper r35079
+Allow-Events: presence,kpml
+Content-Length: 0
+
+]]>
+</message>
+
+06:21:21,508 INFO  [org.mobicents.servlet.sip.core.dispatchers.InitialRequestDispatcher] (Restcomm-SIP-Servlets-UDPMessageChannelThread-488) Request event dispatched to RestComm
+06:21:21,510 INFO  [gov.nist.javax.sip.stack.SIPTransactionStack] (RestComm-akka.actor.default-dispatcher-4610) <message
+from="185.28.22.37:5080" 
+to="110.136.107.220:37606" 
+time="1457436081510"
+isSender="true" 
+transactionId="z9hg4bk-524287-1---13522c4a30318b31" 
+callId="cgt5bExVFIDpjm-rvG5NzQ.." 
+firstLine="SIP/2.0 407 Proxy Authentication required" 
+>
+<![CDATA[SIP/2.0 407 Proxy Authentication required
+To: <sip:astri@lintasbpn.com;transport=UDP>;tag=15559300_d9dada9f_57a5b08a_595f924b
+Via: SIP/2.0/UDP 192.168.0.6:37606;branch=z9hG4bK-524287-1---13522c4a30318b31;rport=37606;received=110.136.107.220
+CSeq: 2 REGISTER
+Call-ID: cgt5bExVFIDpjm-rvG5NzQ..
+From: <sip:astri@lintasbpn.com;transport=UDP>;tag=f4105748
+Server: Restcomm 7.6.0.825
+Proxy-Authenticate: Digest realm="lintasbpn.com",nonce="36313139653531382d666130352d346"
+Content-Length: 0
+
+]]>
+</message>
+
+06:21:21,872 INFO  [gov.nist.javax.sip.stack.UDPMessageChannel] (Restcomm-SIP-Servlets-UDPMessageChannelThread-489) Setting SIPMessage peerPacketSource to: /110.136.107.220:37606
+06:21:21,872 INFO  [gov.nist.javax.sip.stack.SIPTransactionStack] (Restcomm-SIP-Servlets-UDPMessageChannelThread-489) <message
+from="110.136.107.220:37606" 
+to="185.28.22.37:5080" 
+time="1457436081871"
+isSender="false" 
+transactionId="z9hg4bk-524287-1---524e5c5cd2e96185" 
+callId="cgt5bExVFIDpjm-rvG5NzQ.." 
+firstLine="REGISTER sip:lintasbpn.com;transport=UDP SIP/2.0" 
+>
+<![CDATA[REGISTER sip:lintasbpn.com;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.6:37606;branch=z9hG4bK-524287-1---524e5c5cd2e96185;rport=37606;received=110.136.107.220
+Max-Forwards: 70
+Contact: <sip:astri@192.168.0.6:37606;rinstance=81066df6e5945927;transport=UDP>
+To: <sip:astri@lintasbpn.com;transport=UDP>
+From: <sip:astri@lintasbpn.com;transport=UDP>;tag=f4105748
+Call-ID: cgt5bExVFIDpjm-rvG5NzQ..
+CSeq: 3 REGISTER
+Expires: 60
+Allow: INVITE,ACK,CANCEL,BYE,NOTIFY,REFER,MESSAGE,OPTIONS,INFO,SUBSCRIBE
+Proxy-Authorization: Digest username="astri",realm="lintasbpn.com",nonce="36313139653531382d666130352d346",uri="sip:lintasbpn.com;transport=UDP",response="c7a4c44420d8c15275baabf3781e7aed",algorithm=MD5
+Supported: replaces,norefersub,extended-refer,timer,outbound,path,X-cisco-serviceuri
+User-Agent: Zoiper r35079
+Allow-Events: presence,kpml
+Content-Length: 0
+
+]]>
+</message>
+
+06:21:21,874 INFO  [org.mobicents.servlet.sip.core.dispatchers.InitialRequestDispatcher] (Restcomm-SIP-Servlets-UDPMessageChannelThread-489) Request event dispatched to RestComm
+06:21:21,876 INFO  [gov.nist.javax.sip.stack.SIPTransactionStack] (RestComm-akka.actor.default-dispatcher-4610) <message
+from="185.28.22.37:5080" 
+to="110.136.107.220:37606" 
+time="1457436081876"
+isSender="true" 
+transactionId="z9hg4bk-524287-1---524e5c5cd2e96185" 
+callId="cgt5bExVFIDpjm-rvG5NzQ.." 
+firstLine="SIP/2.0 407 Proxy Authentication required" 
+>
+<![CDATA[SIP/2.0 407 Proxy Authentication required
+To: <sip:astri@lintasbpn.com;transport=UDP>;tag=81673712_d9dada9f_57a5b08a_9e85b22a
+Via: SIP/2.0/UDP 192.168.0.6:37606;branch=z9hG4bK-524287-1---524e5c5cd2e96185;rport=37606;received=110.136.107.220
+CSeq: 3 REGISTER
+Call-ID: cgt5bExVFIDpjm-rvG5NzQ..
+From: <sip:astri@lintasbpn.com;transport=UDP>;tag=f4105748
+Server: Restcomm 7.6.0.825
+Proxy-Authenticate: Digest realm="lintasbpn.com",nonce="61343666653133352d346439332d343"
+Content-Length: 0
+
+]]>
+</message>
+
+06:24:21,238 INFO  [org.mobicents.servlet.sip.core.session.SipApplicationSessionImpl] (RestComm_sip_standard_sas_timer_service) Invalidating the following sip application session f0a77ff8;RestComm
+06:24:21,238 INFO  [org.mobicents.servlet.sip.core.session.SipSessionImpl] (RestComm_sip_standard_sas_timer_service) Invalidating the sip session (f4105748;cgt5bExVFIDpjm-rvG5NzQ..;f0a77ff8;RestComm)
+06:24:21,238 INFO  [org.mobicents.servlet.sip.core.session.SipApplicationSessionImpl] (RestComm_sip_standard_sas_timer_service) The following sip application session f0a77ff8;RestComm has been invalidated
+06:24:21,510 INFO  [org.mobicents.servlet.sip.core.session.SipApplicationSessionImpl] (RestComm_sip_standard_sas_timer_service) Invalidating the following sip application session 595f924b;RestComm
+06:24:21,510 INFO  [org.mobicents.servlet.sip.core.session.SipSessionImpl] (RestComm_sip_standard_sas_timer_service) Invalidating the sip session (f4105748;cgt5bExVFIDpjm-rvG5NzQ..;595f924b;RestComm)
+06:24:21,510 INFO  [org.mobicents.servlet.sip.core.session.SipApplicationSessionImpl] (RestComm_sip_standard_sas_timer_service) The following sip application session 595f924b;RestComm has been invalidated
+06:24:21,875 INFO  [org.mobicents.servlet.sip.core.session.SipApplicationSessionImpl] (RestComm_sip_standard_sas_timer_service) Invalidating the following sip application session 9e85b22a;RestComm
+06:24:21,875 INFO  [org.mobicents.servlet.sip.core.session.SipSessionImpl] (RestComm_sip_standard_sas_timer_service) Invalidating the sip session (f4105748;cgt5bExVFIDpjm-rvG5NzQ..;9e85b22a;RestComm)
+06:24:21,876 INFO  [org.mobicents.servlet.sip.core.session.SipApplicationSessionImpl] (RestComm_sip_standard_sas_timer_service) The following sip application session 9e85b22a;RestComm has been invalidated
